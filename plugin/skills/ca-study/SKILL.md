@@ -56,8 +56,8 @@ Lead with a short verdict in the user's language: what it actually is, what is g
 - Project-age timeline: domain, first site evidence, X creation and first relevant post, token deployment, and pool/trading start
 - Market snapshot and concentration
 - Red flags, invalidated claims, and unknowns
-- Category and grade: application, meme, or both; `S/A/B/C/D` plus confidence
+- Category and grade: application, meme, or both; `S/A/B/C/D/F` plus confidence
 
-Grades rank current evidence-adjusted project quality/attention worthiness, with `S` strongest and `D` weakest; they are not price forecasts or instructions to buy. State the evidence that would upgrade or invalidate the grade. Give pivotal transaction hashes for cash-flow or ownership claims when available. Keep raw tool output out of the answer unless requested.
+Grades rank current evidence-adjusted project quality/attention worthiness, with `S` strongest. `D` means poor or extremely risky but not yet proven failed or malicious; `F` is a disqualifying override for a verified scam/rug, critical integrity failure, abandonment, or economically dead project. They are not price forecasts or instructions to buy. State the evidence that would upgrade or invalidate the grade. Give pivotal transaction hashes for cash-flow or ownership claims when available. Keep raw tool output out of the answer unless requested.
 
 If chain identity or exact quote CA cannot be resolved, say so prominently and do not issue a strong legitimacy conclusion. Ask one focused question only when multiple plausible chains/projects remain and the difference materially changes the result.
