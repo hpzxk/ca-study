@@ -1,0 +1,26 @@
+{
+  "name": "crypto-ca-forensics",
+  "version": "1.1.0+codex.20260903035743",
+  "description": "Evidence-first due diligence for crypto CAs, launchpads, pools, tokenized-stock claims, distributions, and project authenticity.",
+  "author": {
+    "name": "Personal workspace"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Crypto CA Forensics",
+    "shortDescription": "Evidence-first crypto CA and project due diligence",
+    "longDescription": "Investigates chain identity, launchpad attribution, pools and exact paired assets, official or third-party stock-token provenance, distributions, contract control, website and X authenticity, community quality, and rug indicators. Applies separate application and meme rating frameworks.",
+    "developerName": "Personal workspace",
+    "category": "Finance",
+    "capabilities": [
+      "Research",
+      "On-chain analysis"
+    ],
+    "defaultPrompt": [
+      "\u5206\u6790\u8fd9\u4e2a CA\uff1a\u53d1\u5c04\u53f0\u3001\u4e3b\u6c60\u3001\u914d\u5bf9\u8d44\u4ea7\u3001\u5408\u7ea6\u6743\u9650\u3001\u56e2\u961f\u4e0e\u98ce\u9669\u3002",
+      "\u67e5\u5e01\u80a1\u914d\u5bf9\u662f\u5426\u5b98\u65b9\uff0c\u5206\u7ea2\u662f\u5426\u771f\u5b9e\uff0c\u5e76\u4ecb\u7ecd\u5e95\u5c42\u80a1\u7968\u3002",
+      "\u6309\u5e94\u7528\u7c7b\u6216 Meme \u7c7b\u6807\u51c6\u8bc4\u4ef7\u9879\u76ee\u3001X \u548c\u793e\u533a\u3002"
+    ]
+  }
+}
+
