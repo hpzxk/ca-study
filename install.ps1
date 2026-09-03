@@ -1,7 +1,8 @@
 $ErrorActionPreference = "Stop"
 
-$PluginName = "crypto-ca-forensics"
-$PluginDisplayName = "Crypto CA Forensics"
+$PluginName = "ca-study"
+$LegacyPluginName = "crypto-ca-forensics"
+$PluginDisplayName = "CA Study"
 $SourcePlugin = Join-Path $PSScriptRoot "plugin"
 $SourceManifest = Join-Path $SourcePlugin ".codex-plugin\plugin.json"
 
@@ -10,7 +11,7 @@ if (-not (Test-Path -LiteralPath $SourceManifest)) {
 }
 
 $UserRoot = [Environment]::GetFolderPath("UserProfile")
-$PluginParent = Join-Path $UserRoot ".codex\plugins"
+$PluginParent = Join-Path $UserRoot "plugins"
 $PluginDestination = Join-Path $PluginParent $PluginName
 $MarketplaceDirectory = Join-Path $UserRoot ".agents\plugins"
 $MarketplacePath = Join-Path $MarketplaceDirectory "marketplace.json"
@@ -35,7 +36,7 @@ $PluginEntry = [pscustomobject][ordered]@{
     name = $PluginName
     source = [pscustomobject][ordered]@{
         source = "local"
-        path = "./.codex/plugins/$PluginName"
+        path = "./plugins/$PluginName"
     }
     policy = [pscustomobject][ordered]@{
         installation = "AVAILABLE"
@@ -63,7 +64,7 @@ if (Test-Path -LiteralPath $MarketplacePath) {
         $Marketplace | Add-Member -NotePropertyName "plugins" -NotePropertyValue @()
     }
 
-    $OtherPlugins = @($Marketplace.plugins | Where-Object { $_.name -ne $PluginName })
+    $OtherPlugins = @($Marketplace.plugins | Where-Object { $_.name -ne $PluginName -and $_.name -ne $LegacyPluginName })
     $Marketplace.plugins = @($OtherPlugins + $PluginEntry)
 } else {
     $Marketplace = [pscustomobject][ordered]@{
@@ -73,7 +74,9 @@ if (Test-Path -LiteralPath $MarketplacePath) {
     }
 }
 
-$Marketplace | ConvertTo-Json -Depth 20 | Set-Content -LiteralPath $MarketplacePath -Encoding UTF8
+$MarketplaceJson = $Marketplace | ConvertTo-Json -Depth 20
+$Utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[IO.File]::WriteAllText($MarketplacePath, $MarketplaceJson + [Environment]::NewLine, $Utf8NoBom)
 
 Write-Host ""
 Write-Host "$PluginDisplayName files installed to:"

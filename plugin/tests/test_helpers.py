@@ -1,6 +1,6 @@
 import importlib.util, pathlib, unittest
 
-ROOT = pathlib.Path(__file__).resolve().parents[1] / "skills" / "crypto-ca-forensics" / "scripts"
+ROOT = pathlib.Path(__file__).resolve().parents[1] / "skills" / "ca-study" / "scripts"
 def load(name):
     spec = importlib.util.spec_from_file_location(name, ROOT / f"{name}.py"); module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module); return module
 dex, evm = load("dex_snapshot"), load("evm_probe")
