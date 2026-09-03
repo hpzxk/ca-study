@@ -7,6 +7,8 @@ description: Evidence-first investigation of crypto contract addresses and proje
 
 Produce a decision-useful investigation whose factual spine can be reproduced. Do not equate a polished site, ticker, blue check, liquidity, or advertised payout with legitimacy.
 
+Treat project age as material evidence, not a footnote. For a newly launched project, explicitly report the domain registration date, earliest archived/site evidence, X account creation date, first project-relevant post, token deployment time, and trading/pool start time when obtainable. Distinguish an old recycled X account from a project with a real operating history. If the website, social presence, and token all appeared within a few days, say this prominently in the verdict and apply the freshness downgrades in the rating framework.
+
 ## Start from identity, not narrative
 
 1. Record every supplied identifier: chain, CA, pool, URL, X handle, ticker, and claimed launchpad.
@@ -51,6 +53,7 @@ Lead with a short verdict in the user's language: what it actually is, what is g
 - Token/contract control
 - Fees, revenue, and holder distributions
 - Website, X, team, and community
+- Project-age timeline: domain, first site evidence, X creation and first relevant post, token deployment, and pool/trading start
 - Market snapshot and concentration
 - Red flags, invalidated claims, and unknowns
 - Category and grade: application, meme, or both; `S/A/B/C/D` plus confidence
