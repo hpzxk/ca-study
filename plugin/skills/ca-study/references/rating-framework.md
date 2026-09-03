@@ -1,6 +1,6 @@
 # Application and Meme rating framework
 
-Use this reference whenever assigning `S/A/B/C/D`. First classify the token as `application`, `meme`, or `hybrid`. A pure Meme receives `Application: N/A`, not a failing application grade. A hybrid receives both grades; do not average them unless the user requests one overall score.
+Use this reference whenever assigning `S/A/B/C/D/F`. First classify the token as `application`, `meme`, or `hybrid`. A pure Meme receives `Application: N/A`, not a failing application grade. A hybrid receives both grades; do not average them unless the user requests one overall score.
 
 Grades measure current evidence-adjusted quality/attention worthiness, not future returns:
 
@@ -8,7 +8,8 @@ Grades measure current evidence-adjusted quality/attention worthiness, not futur
 - `A` 75–84: strong with limited material weaknesses
 - `B` 60–74: credible or interesting but meaningful gaps/risks
 - `C` 40–59: mostly speculative, weak proof, or structurally fragile
-- `D` below 40: poor quality or a critical integrity/safety failure
+- `D` below 40: poor, highly speculative, structurally unsafe, or likely a short-lived shell, but not yet proven malicious, abandoned, or economically dead
+- `F` override, not a numeric band: verified fraud/rug, disqualifying integrity or safety failure, confirmed abandonment, or an economically dead/near-zero project
 
 Always show confidence `high/medium/low` and two to four decisive reasons. Scores are guides, not false precision; round to whole numbers and do not fill missing evidence with neutral points.
 
@@ -40,7 +41,7 @@ Do not penalize a pure Meme merely for lacking application utility. Do penalize 
 
 ## Overrides
 
-A verified honeypot, concealed arbitrary mint/drain, deliberate false official-stock/issuer claim, confirmed compromised account used to promote the token, or removable liquidity misrepresented as irrevocably locked normally forces `D` regardless of narrative strength. Explain the override and evidence.
+A verified honeypot, actual unauthorized mint/drain, deliberate false official-stock/issuer claim, confirmed compromised account used to promote the token, or removable liquidity deliberately misrepresented as irrevocably locked forces `F` regardless of narrative strength. Confirmed liquidity removal, deployer/insider dumping that collapses the market, blocked selling, stolen funds, or other completed rug conduct also forces `F`. Explain the exact evidence and do not disguise it as an ordinary low score.
 
 ## Freshness downgrades and rating caps
 
@@ -58,7 +59,9 @@ Apply the following constraints:
 - Two or more freshness signals concentrated within days must lower the relevant grade by at least one band versus the feature-only assessment, and the report must name the dates causing the downgrade.
 - A recent domain + recent/recycled X presence + new token + no credible independent corroboration is normally capped at `C`, even if the narrative and website are polished.
 - If that cluster also includes an anonymous/no-history operator and a template shell with no live product or usage, an application grade is normally `D`; a meme grade cannot exceed `C` without demonstrably organic reach and healthy on-chain distribution.
-- Verified abandonment, deleted socials/site, drained or abruptly removed liquidity, blocked selling, deployer dumping, fabricated partnerships/metrics, or a launch shell that has already collapsed normally forces `D`.
+- Verified abandonment, deleted socials/site with no surviving official operation, drained or abruptly removed liquidity, blocked selling, deployer dumping, fabricated partnerships/metrics used to sell the token, or a launch shell that has already collapsed forces `F`.
+
+Use `F` for outcome failure as well as proven malicious conduct. A token/project that has effectively gone to zero, lost functional liquidity, and no longer has a working product or active operator is `F` even when intent cannot be proven. State whether the basis is `confirmed malicious/rug` or `failed/abandoned`; do not accuse operators of fraud when only failure is proven.
 
 Do not double-count the same fact mechanically across every dimension. Explain how short history prevents verification of product usage, team execution, community durability, or operator integrity. State what minimum passage of time and observable evidence could lift the cap.
 
