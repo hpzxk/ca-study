@@ -1,13 +1,13 @@
 {
   "name": "ca-study",
-  "version": "1.1.0+codex.20260903143523",
+  "version": "1.1.0+codex.20260904060101",
   "description": "Evidence-first due diligence for crypto CAs, launchpads, pools, tokenized-stock claims, distributions, and project authenticity.",
   "author": {
     "name": "Personal workspace"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "CA Study",
+    "displayName": "ca-study",
     "shortDescription": "Evidence-first crypto CA and project due diligence",
     "longDescription": "Investigates chain identity, launchpad attribution, pools and exact paired assets, official or third-party stock-token provenance, distributions, contract control, website and X authenticity, community quality, and rug indicators. Applies separate application and meme rating frameworks.",
     "developerName": "Personal workspace",
