@@ -12,6 +12,14 @@ Enumerate all pools before selecting the main one. Record chain, DEX/version, po
 
 Never merge FDV with circulating market cap. If circulating supply is not independently known, report FDV and mark market cap unverified. LP value is not equivalent to the amount that can exit without material slippage.
 
+## Meme launch structure and profit overhang
+
+For meme coins, identify the launchpad and its actual mechanics: bonding curve or auction, migration path, creator allocation, launch buy, fee recipients, liquidity custody, anti-sniper rules, and whether the paired asset adds a genuine narrative link or only cosmetic branding.
+
+Check for bundle buys or coordinated launch transactions, same-block or first-minute concentration, creator-linked wallets, snipers, funding-source clusters, and unusually synchronized allocations. Separate a launchpad's configured fairness claims from observed distribution. If cluster analysis is unavailable, mark bundling as unknown rather than clean.
+
+Do not stop at current holder concentration. Estimate profit overhang when data permits: early-wallet cost basis, unrealized multiples, realized exits, top profitable wallets, percentage of supply sitting at very low entry cost, and how much executable liquidity exists relative to their position. A widely distributed token can still have dangerous sell pressure when many early wallets hold extreme unrealized gains. State when cost-basis or linked-wallet data is incomplete.
+
 ## Robinhood Stock Tokens
 
 For any claimed Robinhood official stock token, open the current [Robinhood Chain Token Contracts](https://docs.robinhood.com/chain/contracts/) page. Its stock/ETF table is generated live from the on-chain asset registry. Compare the pool's exact quote CA with the canonical CA on that page.
