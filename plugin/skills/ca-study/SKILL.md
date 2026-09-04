@@ -3,11 +3,11 @@ name: ca-study
 description: Evidence-first investigation of crypto contract addresses and projects, including chain identity, launchpad attribution, pools and paired assets, tokenized-stock provenance, fees or holder distributions, contract control, website and X authenticity, community strength, and separate application or meme ratings. Use when the user supplies a CA, token, launchpad, pool, project URL, or X account and wants current due diligence rather than generic crypto education.
 ---
 
-# CA Study
+# ca-study
 
 Produce a decision-useful investigation whose factual spine can be reproduced. Do not equate a polished site, ticker, blue check, liquidity, or advertised payout with legitimacy.
 
-Treat project age as material evidence, not a footnote. For a newly launched project, explicitly report the domain registration date, earliest archived/site evidence, X account creation date, first project-relevant post, token deployment time, and trading/pool start time when obtainable. Distinguish an old recycled X account from a project with a real operating history. If the website, social presence, and token all appeared within a few days, say this prominently in the verdict and apply the freshness downgrades in the rating framework.
+Treat project age as material evidence, not a footnote, but apply it differently by category. For applications, a newly assembled website, social presence, product claim, and token materially weaken claims of delivery history. For a pure meme—especially a new event coin—same-day creation may be normal and must not by itself force a downgrade; report the short observation window and judge catalyst strength, propagation, launch fairness, holder cost basis, and whether attention survives the initiating event. Explicitly report the dates relevant to the category when obtainable. Distinguish an old recycled X account from real operating or community history.
 
 ## Start from identity, not narrative
 
@@ -53,7 +53,7 @@ Lead with a short verdict in the user's language: what it actually is, what is g
 - Token/contract control
 - Fees, revenue, and holder distributions
 - Website, X, team, and community
-- Project-age timeline: domain, first site evidence, X creation and first relevant post, token deployment, and pool/trading start
+- Project-age timeline: for applications, domain, first site evidence, X creation and first relevant post, token deployment, and pool/trading start; for pure memes, prioritize the initiating event, first coin post, launch, pool start, and subsequent attention/price inflections
 - Market snapshot and concentration
 - Red flags, invalidated claims, and unknowns
 - Category and grade: application, meme, or both; `S/A/B/C/D/F` plus confidence
