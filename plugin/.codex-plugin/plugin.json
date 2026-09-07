@@ -1,15 +1,15 @@
 {
   "name": "ca-study",
-  "version": "1.1.0+codex.20260904060101",
-  "description": "Evidence-first due diligence for crypto CAs, launchpads, pools, tokenized-stock claims, distributions, and project authenticity.",
+  "version": "1.1.0+codex.20260907175219",
+  "description": "Evidence-first crypto due diligence with mandatory current-buy ratings, valuation, large-holder profits, and launch-bundle exit analysis.",
   "author": {
     "name": "Personal workspace"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "ca-study",
-    "shortDescription": "Evidence-first crypto CA and project due diligence",
-    "longDescription": "Investigates chain identity, launchpad attribution, pools and exact paired assets, official or third-party stock-token provenance, distributions, contract control, website and X authenticity, community quality, and rug indicators. Applies separate application and meme rating frameworks.",
+    "shortDescription": "Crypto due diligence with valuation-aware buy ratings",
+    "longDescription": "Investigates chain identity, launchpads, exact paired assets, stock-token provenance, holder rights, contract control, and project/community authenticity. Every project investigation includes an overall S/A/B/C/D/E/F current-buy rating using separate application and meme criteria, current market cap/FDV, large-holder realized/unrealized profits, and launch-bundle sales, proceeds, and remaining inventory.",
     "developerName": "Personal workspace",
     "category": "Finance",
     "capabilities": [

@@ -1,4 +1,4 @@
 interface:
   display_name: "CA Study"
-  short_description: "Evidence-first crypto CA and project due diligence"
-  default_prompt: "分析这个 crypto CA：核验链、发射台、主池及配对资产、分红、权限、官网、X 和社区，并按应用或 Meme 标准评级。"
+  short_description: "Crypto due diligence with valuation-aware buy ratings"
+  default_prompt: "使用 $ca-study 分析这个 CA：核验项目与代币，结合当前市值、大户已实现与未实现盈利、发射捆绑交易已卖数量及剩余筹码，按应用或 Meme 标准给出 S/A/B/C/D/E/F 综合买入评级。"
