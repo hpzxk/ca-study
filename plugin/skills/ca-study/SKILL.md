@@ -1,13 +1,13 @@
 ---
 name: ca-study
-description: Evidence-first crypto CA and project due diligence with a mandatory current-buy S/A/B/C/D/E/F rating, separate application and meme criteria, current valuation, large-holder profits, and launch-bundle exits. Use when the user supplies a CA, token, launchpad, pool, project URL, or X account and wants current due diligence rather than generic crypto education.
+description: Evidence-first crypto due diligence with a mandatory A/B/C/D/F current-buy rating, risk/reward, actionable entry strategy, development-based market-cap scenarios, separate application/meme criteria, large-holder profits, and launch-bundle exits. Use for current investigation of a supplied CA, token, launchpad, pool, project URL, or X account rather than generic crypto education.
 ---
 
 # ca-study
 
 Produce a decision-useful investigation whose factual spine can be reproduced. Do not equate a polished site, ticker, blue check, liquidity, or advertised payout with legitimacy.
 
-Every project/token investigation using this skill must include one **综合评级（当前买入性价比）：S/A/B/C/D/E/F** per assessed asset, without waiting for the user to request a rating. This includes short questions and follow-up updates. The grade answers whether buying at the observed price and valuation is attractive after accounting for project/category quality, token rights, liquidity, and on-chain sell pressure. It is not merely a product-quality or attention score. Refresh the material market and holder evidence; do not reuse a previous grade as current by default. Plugin maintenance or a request with no identifiable investable asset does not justify inventing a token or rating.
+Every project/token investigation using this skill must include a **final investment assessment** per assessed asset without waiting for the user to request it: **综合评级 A/B/C/D/F + score out of 10 where supportable + 当前赔率 + 当前策略 + entry valuation zones + development-based market-cap scenarios**. `A` is highest; `F` means **当前不考虑**, not necessarily fraud. Do not use other grade letters or plus/minus suffixes. This includes short questions and follow-up updates. Judge buying at the observed price against category quality, token rights, development potential, liquidity, and on-chain sell pressure. Refresh material market/holder evidence; do not reuse old ratings or screenshot target ranges as current. Plugin maintenance or a request with no identifiable investable asset does not justify inventing a token or rating.
 
 Treat project age as material evidence, not a footnote, but apply it differently by category. For applications, a newly assembled website, social presence, product claim, and token materially weaken claims of delivery history. For a pure meme—especially a new event coin—same-day creation may be normal and must not by itself force a downgrade; report the short observation window and judge catalyst strength, propagation, launch fairness, holder cost basis, and whether attention survives the initiating event. Explicitly report the dates relevant to the category when obtainable. Distinguish an old recycled X account from real operating or community history.
 
@@ -27,9 +27,9 @@ Run `scripts/dex_snapshot.py` when a CA needs DEX pair discovery or primary-pool
 - For launchpads, pools, liquidity, Robinhood Stock Tokens, other stock/RWA issuers, or an underlying-company summary, read [references/pools-and-launchpads.md](references/pools-and-launchpads.md).
 - For taxes, revenue, dividends, rebates, buybacks, burns, holder rights, or privileged contract controls, read [references/cashflow-and-contracts.md](references/cashflow-and-contracts.md).
 - For website, X, team, community, impersonation, account compromise, or rug risk, read [references/identity-and-community.md](references/identity-and-community.md).
-- For every project/token investigation, read [references/rating-framework.md](references/rating-framework.md) and [references/holders-and-launch.md](references/holders-and-launch.md). The overall current-buy grade, valuation review, large-holder profit analysis, and launch-bundle exit check are mandatory.
+- For every project/token investigation, read [references/rating-framework.md](references/rating-framework.md), [references/holders-and-launch.md](references/holders-and-launch.md), and [references/valuation-and-strategy.md](references/valuation-and-strategy.md). The overall grade, entry strategy, development-based valuation, large-holder profit analysis, and launch-bundle exit check are mandatory.
 
-Read other references as needed for the requested modules. For a full project audit, read all five.
+Read other references as needed for the requested modules. For a full project audit, read all six.
 
 ## Evidence labels
 
@@ -60,10 +60,12 @@ Lead with a short verdict in the user's language: what it actually is, the overa
 - Large-holder positions and cost basis: realized profit, unrealized profit, remaining position, concentration, turnover evidence, and potential sell pressure versus liquidity
 - Launch-bundle/insider cohort: initial buys, sales and proceeds, remaining balances, attribution confidence, and data coverage
 - Red flags, invalidated claims, and unknowns
-- Category and overall current-buy grade: application, meme, or hybrid; `S/A/B/C/D/E/F` plus confidence
+- Category and overall current-buy grade: application, meme, or hybrid; `A/B/C/D/F` plus confidence
+- Current risk/reward and buy/wait/do-not-consider strategy: preferred entry zone, conditional first-entry zone, add/reduce triggers, no-chase boundary, and invalidation
+- Development-based market-cap space: downside, base, and conditional upper range with horizon, measurable milestones, token value capture, future supply, and reasons each scenario could fail
 
-The mandatory rating summary contains: **overall grade + confidence + category + timestamp + current market cap/FDV**, the category base score and valuation adjustment, any binding risk cap, and two to four decisive reasons. State explicitly how valuation and holder/launch sell pressure affected the result. Missing material data must be marked `Unknown` with a provisional conservative grade under the framework, not omitted or silently treated as safe. A hybrid may show both category assessments but still needs one overall grade.
+Use the compact final-assessment format in [references/valuation-and-strategy.md](references/valuation-and-strategy.md). Include **overall grade + score/10 where supportable + confidence + category + timestamp + current market cap/FDV**, current risk/reward, a concrete entry/observation strategy, development scenarios, and two to four decisive reasons. Explain the category base score, valuation adjustment, and any binding cap without crowding the headline. State how valuation and holder/launch sell pressure affected the result. Missing data must remain `Unknown`, with a provisional conservative judgment; do not invent scores, entry prices, stars, or a market-cap ceiling. A hybrid still needs one overall grade.
 
-`S` is strongest current buying attractiveness; `E` means extremely poor current risk/reward or a material inability to establish investability; `F` is the disqualifying failure/rug override. Grades are research judgments at a stated price, not guaranteed returns or authorization to trade. State the price/valuation or observable evidence that would upgrade, downgrade, or invalidate the grade. Give pivotal transaction hashes for cash-flow, holder-sale, and ownership claims when available. Keep raw tool output out of the answer unless requested.
+`F` means the asset is outside the current buy consideration set; distinguish unfavorable economics, insufficient critical evidence, and confirmed failure/rug. Grades and strategies are research judgments at a stated price, not trade authorization. A market-cap upper range is conditional on development and a time horizon, not a hard maximum or guaranteed target. Give pivotal transaction hashes for cash-flow, holder-sale, and ownership claims when available. Keep raw tool output out of the answer unless requested.
 
 If chain identity or exact quote CA cannot be resolved, say so prominently and do not issue a strong legitimacy conclusion. Ask one focused question only when multiple plausible chains/projects remain and the difference materially changes the result.

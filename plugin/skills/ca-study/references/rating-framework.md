@@ -1,25 +1,23 @@
 # Application and Meme current-buy rating framework
 
-Read this reference for every project/token investigation and always give one overall `S/A/B/C/D/E/F` current-buy grade per assessed asset. First classify the token as `application`, `meme`, or `hybrid`. A pure meme receives `Application: N/A`, not a failing application grade. For a hybrid, assess both categories, choose and explain the dominant investment thesis before scoring, and use that category as the base. If both are material, disclose explicit weights summing to 100% and combine the two base scores. Do not cherry-pick the higher score or let a meme narrative bypass a material application failure. Apply valuation once and the strongest relevant asset-level risk cap to the overall result.
+Read this reference for every project/token investigation and always give one overall `A/B/C/D/F` current-buy grade per assessed asset, without plus/minus suffixes. First classify the token as `application`, `meme`, or `hybrid`. A pure meme receives `Application: N/A`, not a failing application grade. For a hybrid, assess both categories, choose and explain the dominant investment thesis before scoring, and use that category as the base. If both are material, disclose explicit weights summing to 100% and combine the two base scores. Do not cherry-pick the higher score or let a meme narrative bypass a material application failure. Apply valuation once and the strongest relevant asset-level risk cap to the overall result. Always include the strategy and development scenarios in [valuation-and-strategy.md](valuation-and-strategy.md).
 
 Grades measure evidence-adjusted **buying attractiveness at the current price/market cap**, including valuation and exit risk. A good project can be an unattractive purchase; a modest project can deserve a higher current-buy grade at a sufficiently low, defensible valuation. Neither outcome is automatic.
 
-- `S` 85–100: exceptional current risk/reward, compelling valuation, broad strong evidence, no unresolved critical flaw
-- `A` 75–84: attractive current entry with strong support and limited material weaknesses
-- `B` 60–74: some current buying merit, but meaningful valuation, evidence, or exit risks
-- `C` 40–59: marginal/speculative at this valuation; wait for better price or stronger evidence
-- `D` 20–39: poor current buying case with major weaknesses or excessive valuation/sell pressure
-- `E` 0–19: extremely unfavorable current risk/reward; avoid a current entry, without asserting proven fraud/failure
-- `F` override, not a numeric band: verified fraud/rug, disqualifying integrity or safety failure, confirmed abandonment, or an economically dead/near-zero project
+- `A` 80–100 / 8.0–10.0: attractive current buying case, supported development upside and practical exit liquidity; a conditional phased-entry candidate
+- `B` 65–79 / 6.5–7.9: some buying merit with material uncertainty; a cautious initial position only where the entry conditions hold
+- `C` 50–64 / 5.0–6.4: marginal/speculative at this valuation; observe and wait for better price or evidence
+- `D` 30–49 / 3.0–4.9: poor current entry; avoid new buying and reassess only after specified improvements
+- `F` 0–29 / 0.0–2.9, or an exclusion override: **当前不考虑**; unsuitable current economics, unresolved critical investability, confirmed failure, or verified malicious conduct
 
-Always show confidence `high/medium/low` and two to four decisive reasons. Scores are guides, not false precision; round to whole numbers and do not fill missing evidence with neutral points.
+Always show confidence `high/medium/low` and two to four decisive reasons. Compute internally in whole points out of 100; show the supported final score divided by 10 to one decimal, such as `综合：A / 8.4（满分 10）`. Do not add plus/minus grades. `F` does not itself allege fraud: specify `估值/风险收益不合适`, `关键证据不足，暂不考虑`, `已确认失败/弃项`, or `已证实恶意行为`, as applicable. Missing evidence is not a neutral passing score.
 
 ## Build one overall grade
 
 1. Score the relevant category below using the existing weights (100 total). Include current holder-cost, launch-sale, and liquidity findings from [holders-and-launch.md](holders-and-launch.md) in its 15-point token/holder-health dimension. Include proven operator conduct in integrity, explaining distinct effects instead of duplicating deductions.
 2. Add a separate **current valuation adjustment from -30 to +15 points**. Keep price attractiveness out of the base score: product revenue and token capture belong in the base, while their relationship to price belongs in this adjustment. Never add a second holder-risk adjustment for facts already scored in holder health.
-3. Clamp the adjusted score to 0–100 and map it to the bands above. Apply any grade ceilings and `F` overrides last. A cap can lower the final letter below the uncapped numeric band; show both and name the binding reason.
-4. Report `category base X/100; valuation +Y/-Y; adjusted Z/100; cap/override; overall grade; confidence`. Explain what current valuation and on-chain data contributed even in a short answer. A base category score is never a substitute for the overall grade.
+3. Clamp the adjusted score to 0–100, then apply evidence/risk ceilings. For a numeric ceiling, cap the effective score at that band's maximum (for example, `C` at 64 and `D` at 49), so the headline grade and score agree. Retain the uncapped arithmetic and name the binding reason in the explanation. A disqualifying override produces `F / 不考虑（否决项）`; when evidence cannot support a numeric result, show `暂不评分` instead of fabricating zero or pairing `F` with a misleading high headline score.
+4. Report the headline grade/score, confidence, odds and strategy using the companion format. Under it explain `category base X/100; valuation +Y/-Y; adjusted Z/100; cap/override; final result`. Explain valuation and on-chain contributions even in a short answer. Neither a category base score nor a large hypothetical market-cap target substitutes for the overall grade.
 
 ## Current valuation adjustment
 
@@ -39,18 +37,18 @@ Use these adjustment anchors, with a reason for the chosen whole-number value:
 | -1 to -14 | Meaningful optimism already priced in or a valuation premium unsupported by adoption/attention |
 | -15 to -30 | Extreme premium, weak remaining upside relative to downside, or price requiring implausible growth/attention |
 
-Mark unsupported valuation `Unknown` and use no positive adjustment, with the evidence cap below. Give at least one defensible valuation/price range or observable repricing condition that would change the grade; if no numeric range is supportable, say so and use a concrete condition. An ordinary but credible project may move up on price, while an excellent expensive project may move down. Cheapness never overrides `F`, safety failures, severe sell-pressure caps, or freshness/evidence ceilings.
+Build downside, base and conditional upper valuation ranges from development milestones under [valuation-and-strategy.md](valuation-and-strategy.md), then derive entry zones from that opportunity and its risks. Mark unsupported valuation `Unknown` and use no positive adjustment, with the evidence cap below. If no numeric range is supportable, say so and use a concrete condition. An ordinary but credible project may move up on price, while an excellent expensive project may move down. Cheapness never overrides safety failures, severe sell-pressure caps, or freshness/evidence ceilings. An economic `F` may improve after sufficient repricing or verified development; a confirmed rug is not rehabilitated by a lower price.
 
 ## Holder risk and evidence ceilings
 
 Use current positions, cost coverage, realized and unrealized profits, and launch-cohort sales together; the companion reference defines the calculations and evidence boundaries.
 
 - Large unrealized gains combined with concentrated remaining low-cost supply, little verified cost-basis reset, and shallow executable depth reduce the holder-health score. High profits alone do not prove low turnover or an imminent dump.
-- If verified remaining insider/early-winner inventory could overwhelm observed exit depth and observed selling or weak demand corroborates that risk, cap at `D`; use `E` for an extreme overhang with negligible practical exit capacity. State quantities, dates, and the liquidity comparison. There is no universal profit multiple that proves this condition.
+- If verified remaining insider/early-winner inventory could overwhelm observed exit depth and observed selling or weak demand corroborates that risk, cap at `D`; use `F / 当前不考虑` for an extreme overhang with negligible practical exit capacity. State quantities, dates, and the liquidity comparison. There is no universal profit multiple that proves this condition.
 - A substantially exited launch cohort may have less remaining overhang; a wallet transfer is not proof of exit. Past realized profit without a remaining position is not current sellable inventory. Confirmed rug behavior still forces `F` even after insiders finish selling.
 - Materially missing/stale valuation or an inability to assess large-holder cost/remaining-inventory or launch-sale exposure prevents a strong current-buy call: use a **provisional grade no higher than `C`, low confidence**, specify coverage and the missing evidence, and use lower grades where known risks warrant them. Partial gaps need not trigger this ceiling if bounded evidence still answers the material risk; explain why.
-- If target token identity, sellability, or usable liquidity itself cannot be established, an identified candidate receives **provisional `E`, low confidence**. Do not call it a scam. If no unique token can be identified at all, mark rating `无法评级：标的未确认` and resolve identity rather than grading an invented asset.
-- `S` requires a positive, supported valuation adjustment, strong category evidence, adequate holder/launch coverage, practical exit liquidity, high confidence, and no material unresolved risk. A numeric score alone cannot award `S`; when only the `S` requirements fail, cap at `A` unless another ceiling is stricter.
+- If target token identity, sellability, or usable liquidity itself cannot be established, an identified candidate receives **provisional `F / 当前不考虑：关键证据不足`, low confidence**, with no manufactured numeric score. Do not call it a scam. If no unique token can be identified at all, mark rating `无法评级：标的未确认` and resolve identity rather than grading an invented asset.
+- `A` requires a supported favorable/fair entry valuation, credible development upside, adequate holder/launch coverage, practical exit liquidity, at least medium confidence, and no unresolved critical flaw. A large theoretical upside alone cannot award `A`. If only these requirements fail, cap at `B` (79), unless another ceiling is stricter.
 
 Confidence reflects source quality, freshness and coverage, not enthusiasm. API errors and missing fields never count as zero profits, zero bundles, zero sales, or passing checks.
 
@@ -91,7 +89,9 @@ For meme and event coins, prioritize the following evidence inside the dimension
 
 When useful, supplement the mandatory overall current-buy grade with three distinct judgments: `meme/catalyst quality`, `token launch and distribution`, and `current valuation/entry risk`.
 
-## Overrides
+## F exclusions and integrity overrides
+
+Use `F` whenever the current buying case should not be considered, including an extremely poor score or unresolved critical investability. Distinguish these potentially revisable exclusions from verified misconduct/failure. For any `F`, the strategy must be `不买入/不考虑`; do not append a routine dip-buy zone or phased-buy plan that contradicts the exclusion. State the evidence or economic changes needed for a new review, where meaningful.
 
 A verified honeypot, actual unauthorized mint/drain, deliberate false official-stock/issuer claim, confirmed compromised account used to promote the token, or removable liquidity deliberately misrepresented as irrevocably locked forces `F` regardless of narrative strength or low valuation. Confirmed rug liquidity removal, deployer/insider dumping that collapses the market, blocked selling, stolen funds, or other completed rug conduct also forces `F`. Explain the exact evidence and do not disguise it as an ordinary low score. Ordinary creator sales, LP rebalancing, or a verified liquidity migration alone are not completed rug conduct.
 

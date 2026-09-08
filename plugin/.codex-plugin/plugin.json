@@ -1,15 +1,15 @@
 {
   "name": "ca-study",
-  "version": "1.1.0+codex.20260907175219",
-  "description": "Evidence-first crypto due diligence with mandatory current-buy ratings, valuation, large-holder profits, and launch-bundle exit analysis.",
+  "version": "1.1.0+codex.20260908065651",
+  "description": "Evidence-first crypto due diligence with A/B/C/D/F ratings, entry strategies, development-based valuation scenarios, and holder/launch analysis.",
   "author": {
     "name": "Personal workspace"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "ca-study",
-    "shortDescription": "Crypto due diligence with valuation-aware buy ratings",
-    "longDescription": "Investigates chain identity, launchpads, exact paired assets, stock-token provenance, holder rights, contract control, and project/community authenticity. Every project investigation includes an overall S/A/B/C/D/E/F current-buy rating using separate application and meme criteria, current market cap/FDV, large-holder realized/unrealized profits, and launch-bundle sales, proceeds, and remaining inventory.",
+    "shortDescription": "Crypto ratings, entry plans, and development-based upside",
+    "longDescription": "Investigates crypto identity, launchpads, exact paired assets, holder rights, contract controls, and project/community evidence. Every project assessment includes an A/B/C/D/F current-buy rating (F means do not consider), risk/reward, entry or observation strategy, and development-based market-cap scenarios with milestones and dilution. Retains large-holder profit and launch-bundle sale/inventory analysis.",
     "developerName": "Personal workspace",
     "category": "Finance",
     "capabilities": [
@@ -19,7 +19,7 @@
     "defaultPrompt": [
       "\u5206\u6790\u8fd9\u4e2a CA\uff1a\u53d1\u5c04\u53f0\u3001\u4e3b\u6c60\u3001\u914d\u5bf9\u8d44\u4ea7\u3001\u5408\u7ea6\u6743\u9650\u3001\u56e2\u961f\u4e0e\u98ce\u9669\u3002",
       "\u67e5\u5e01\u80a1\u914d\u5bf9\u662f\u5426\u5b98\u65b9\uff0c\u5206\u7ea2\u662f\u5426\u771f\u5b9e\uff0c\u5e76\u4ecb\u7ecd\u5e95\u5c42\u80a1\u7968\u3002",
-      "\u6309\u5e94\u7528\u7c7b\u6216 Meme \u7c7b\u6807\u51c6\u8bc4\u4ef7\u9879\u76ee\u3001X \u548c\u793e\u533a\u3002"
+      "\u6309\u5e94\u7528\u6216 Meme \u6807\u51c6\u7ed9\u51fa A/B/C/D/F \u7efc\u5408\u8bc4\u7ea7\u3001\u5f53\u524d\u8d54\u7387\u4e0e\u4e70\u5165\u7b56\u7565\uff0c\u5e76\u4ece\u9879\u76ee\u53d1\u5c55\u63a8\u5bfc\u5e02\u503c\u7a7a\u95f4\u53ca\u6761\u4ef6\u4e0a\u9650\u3002"
     ]
   }
 }

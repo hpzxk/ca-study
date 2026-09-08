@@ -1,4 +1,4 @@
 interface:
   display_name: "CA Study"
-  short_description: "Crypto due diligence with valuation-aware buy ratings"
-  default_prompt: "使用 $ca-study 分析这个 CA：核验项目与代币，结合当前市值、大户已实现与未实现盈利、发射捆绑交易已卖数量及剩余筹码，按应用或 Meme 标准给出 S/A/B/C/D/E/F 综合买入评级。"
+  short_description: "Crypto ratings, entry plans, and development-based upside"
+  default_prompt: "使用 $ca-study 分析这个 CA：按应用或 Meme 标准给出 A/B/C/D/F 综合评级（F 为当前不考虑）、当前赔率与买入策略，结合项目发展推导市值空间及条件上限，并核验大户盈利和发射捆绑筹码。"
