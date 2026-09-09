@@ -4,7 +4,7 @@ Use in every project/token investigation alongside [rating-framework.md](rating-
 
 ## Work from development to token valuation
 
-First state the investment thesis in one sentence: what must become true for this token to deserve materially more value. Establish the present development stage and separate verified achievements from announced plans. Choose an explicit scenario horizon appropriate to the thesis (for example an event window, 1–3 months, or 6–12 months); do not compare short-lived event upside with multi-year product targets as if they had the same likelihood or timing.
+First state the investment thesis in one sentence: what must become true for this token to deserve materially more value. Establish the present stage and separate verified achievements from plausible expectations. **Memes default to 1–2 months, with priority on a breakout catalyst in the next 7 days and 24–72 hour checkpoints for new launches.** An application horizon follows its actual catalyst/delivery cycle; distinguish a near-term expectation trade from a longer operating thesis. Do not use a 6–12 month meme vision to justify today's entry unless the user explicitly requests that horizon.
 
 For each step up in valuation, show the chain of reasoning:
 
@@ -12,7 +12,9 @@ For each step up in valuation, show the chain of reasoning:
 
 ### Applications
 
-- Identify the usable product, actual retained/paying users, sustainable revenue/fees, current growth, differentiation and execution capacity. Specify which next product/commercial milestones could expand those metrics, and by when.
+For low-valued early applications, use the expectation-trade mode in [rating-framework.md](rating-framework.md) before concluding that missing maturity means no purchase. Give a dated peer comparison where available and identify whether a cheaper token's discount exceeds its actual disadvantages. Discuss **buying a small position before confirmation versus paying more after confirmation**: what uncertainty is being accepted, what catalyst could reprice it, what discount compensates for the risk, and what needs to improve before adding. Full product delivery, complete vault reconciliation or every whale's exact cost are not automatic first-entry requirements. If an unverifiable balance is central to the entire investment case, give it no asset-floor credit and explain whether another defensible expectation thesis remains.
+
+- Identify usable product/development evidence, actual retained/paying users and sustainable revenue where present, differentiation and execution capacity. Report absent metrics honestly; score an early opportunity on evidenced plausibility rather than declaring that all mature metrics must already exist. Specify which near-term product/commercial milestones or market discovery could drive a rerating, and by when.
 - Derive an operating scenario from measurable inputs, such as retained paying users × recurring spend, or credible transaction activity × effective fee rate. Do not annualize a promotional launch burst as recurring earnings. Include costs, incentives and net economics where they matter.
 - Explain the exact route from product success to token value: enforceable distributions, recurring buybacks from external earnings, required token demand, or other verified rights/mechanics. A successful application without meaningful token capture can still be an unattractive token purchase.
 - Use matched, current comparables with consistent metrics, or an explicit scenario model. Where a cash-flow multiple is appropriate, identify the sustainable annual cash flow actually accruing to the token and a supported multiple; do not apply the entire company's revenue or enterprise value to token holders. Where no defensible cash-flow claim exists, avoid presenting an equity-style valuation as intrinsic token value.
@@ -20,10 +22,14 @@ For each step up in valuation, show the chain of reasoning:
 
 ### Memes and event coins
 
-- Identify the path from a single event or small group to a durable, broadly recognized narrative: independent creators, community persistence, identity/cultural relevance, distribution across communities, and sustained conversion into real holders/traders.
+- First ask **what could ignite this token in the next week?** Reconstruct the catalyst/event schedule, emotional hook, independent dissemination velocity, buyer/holder conversion, liquidity and remaining cheap supply. Describe a potential explosive setup as a conditional combination of these observations, not a promised chart breakout.
+- Always assess the exact launchpad's capability, incentives, relevant recent launches and token-specific promotion/funding/liquidity/control evidence under [pools-and-launchpads.md](pools-and-launchpads.md). Distinguish credible future support from observed support, and sponsor-driven upside from insider exit risk.
+- Then assess whether an initial move could propagate for **1–2 months**: further catalysts, independent creators, cultural relevance, cross-community distribution and retained holders/traders. Long-term durability is secondary to this entry horizon.
 - Tie a higher scenario to observable expansion rather than slogans. Suitable milestones include independently active participants and creators, retained holders, new organic traders, quote liquidity/executable depth, reduced insider inventory, and attention surviving the initial catalyst. Avoid treating follower counts, a KOL mention, or a desired listing as a mechanical market-cap multiplier.
 - Compare liquid peers with similar narrative/category, chain, stage, supply structure and date. Include failed/faded peers when selecting the range, not just exceptional winners. Explain any proposed premium or discount; famous historical peaks are not a default ceiling for every new meme.
 - When a meme depends on another token, stock, celebrity or event, show that dependency and downside. Official origin, exact-token endorsement and merely borrowing an identity are different evidence. An associated company's value is not the meme's valuation entitlement.
+
+State the 24–72 hour/7-day confirmation and failure conditions: independent attention or net new buyers accelerating, platform support materializing, liquidity deepening, or the opposite (catalyst absent, demand fading, insiders exiting). If no credible opportunity emerges over roughly a week, explicitly reconsider the thesis and waiting period; do not mechanically project an unchanged bullish target for two months. This is a review trigger, not a claim that every quiet meme is dead. Re-evaluation conditions do not create a scheduled monitor without a user request.
 
 For a hybrid, show which part of the upside depends on product delivery and which on narrative adoption. Do not add two standalone valuations for the same token unless independent, non-overlapping value streams justify it.
 
@@ -37,7 +43,7 @@ Always address development-based market-cap space. Normally provide a compact ta
 | Base / achievable next stage | Valuation range supported if the most plausible specified milestones occur | Milestones, dated comparables/model inputs, horizon and remaining gaps |
 | Strong development / conditional upper range | Upper range defensible within the stated horizon if stronger milestones occur together | More demanding adoption/capture, organic reach, liquidity and holder-distribution conditions |
 
-Include valuation basis (`circulating market cap` or `FDV`), assumed future supply, implied token-price range/return where supportable, and the condition that invalidates each row. State the current snapshot next to the table. Use ranges rather than a single precise target. Distinguish observed evidence from assumptions, and use qualitative likelihood where numeric probabilities lack support.
+Include valuation basis (`circulating market cap` or `FDV`), assumed future supply, implied token-price range/return where supportable, and the condition that invalidates each row. For memes keep the main scenarios within 1–2 months and identify which next-week catalyst starts the path to each range. State the current snapshot next to the table. Use ranges rather than a single precise target. Distinguish observed evidence from assumptions, and use qualitative likelihood where numeric probabilities lack support.
 
 The upper edge of the strong scenario is the **条件性市值上限**, not an immutable maximum, assured target, or promise that the market will value the token that way. State why higher valuations are not supported by current development evidence and what additional achievements could justify revising the ceiling. An optional speculative extreme belongs separately and must not anchor the base case, entry plan, or headline odds.
 
@@ -55,16 +61,16 @@ Do not equate a market-cap increase with required net capital inflow, and do not
 
 `当前赔率` is a qualitative assessment of upside relative to downside at this entry, weighed against the plausibility/time to development and the ability to exit. It is distinct from project quality, confidence and probability of success. Do not infer a success percentage from stars or translate the overall score directly into stars.
 
-Use 1–5 stars (half steps allowed), with an explicit numeric label such as `★★★★☆（4/5）` or `★★★★½（4.5/5）`. Anchors: 5 = unusually favorable supported asymmetry; 4 = favorable with stated conditions; 3 = mixed/balanced or substantial uncertainty; 2 = weak payoff relative to risk; 1 = very poor/non-actionable. Explain the decisive upside and downside driver. Five stars requires plausible development, practical liquidity and adequate evidence, not just a large hypothetical target. For an exclusion or insufficient data use `不适用` or `无法可靠评估` rather than a high star rating that implies an actionable entry.
+Use **1–5 whole ⭐ emoji**, for example `当前赔率: ⭐⭐⭐`, in the final block; no half stars, hollow stars or numeric label there. Anchors: 5 = unusually favorable supported asymmetry; 4 = favorable with stated conditions; 3 = mixed/balanced or substantial uncertainty; 2 = weak payoff relative to risk; 1 = very poor/non-actionable. Explain the upside/downside and horizon before the final block. Five stars requires plausible development, practical liquidity and adequate evidence, not just a large hypothetical target. For an exclusion or insufficient data use `不适用` or `无法可靠评估` rather than a high rating that implies an actionable entry.
 
 Where price scenarios support it, show a scenario payoff ratio: `(target price / entry price - 1) / (1 - downside price / entry price)`, with the selected scenario, horizon and assumptions. Use it only for target > entry > downside and disclose it as scenario-based, not a probability-weighted expected return. Do not use an arbitrary tight stop to manufacture impressive odds; gaps, taxes and slippage can defeat the assumed exit. Do not invent probabilities to compute expected value.
 
 ## Buy, wait, or exclude: make the strategy usable
 
-Every assessment must state a current action consistent with its grade. A strong project at a poor entry price can merit waiting. A high grade does not authorize an actual trade.
+Every assessment must state a current action consistent with its grade and entry price. Compare waiting for better evidence with taking a small expectation position at today's relative discount; do not automatically prefer waiting without discussing the price of confirmation. A high grade does not authorize an actual trade.
 
 - **A:** conditional phased buying may be reasonable within supported entry zones. Explain which evidence warrants the first entry and which milestones must hold before adding.
-- **B:** cautious initial exposure only if specified valuation/liquidity conditions are met; define what would justify further allocation.
+- **B:** `少量买入` can be justified now when relative value, a credible near-term catalyst, observable risk and liquidity support an early expectation trade, even though maturity/details remain uncertain. Make those gaps and the conditions for further allocation explicit; do not move every unmet add-position condition into a first-entry prohibition.
 - **C:** observation/wait for a concrete repricing or evidence trigger; no automatic current buy instruction.
 - **D:** avoid a new entry at current conditions; specify the substantive improvement required for reconsideration.
 - **F:** `当前不考虑/不买入`. State why and, if meaningful, what would justify a fresh review. No routine dip-buy plan for an excluded asset.
@@ -73,32 +79,24 @@ For investable candidates, derive **核心赔率区 / preferred entry range**, *
 
 Specify phased-entry conditions and meaningful add/reduce triggers: lower valuation with thesis intact, verified milestones, healthier distribution and deeper liquidity, or a rise into valuation already requiring the strong scenario. Add a thesis-invalidation condition, such as broken rights, deterioration in real usage, a disproved narrative, insider distribution that overwhelms depth, or a material milestone miss. A falling price with deteriorating evidence is not by itself a reason to average down. Include a price-based risk level only where defensible, with the execution limitation.
 
+For a small early application entry, clearly separate **must know before the first entry** (exact asset, current valuation/supply basis, tradability, observable critical controls and a defensible thesis) from **evidence needed to add** (product delivery, fuller vault accounting, retained usage, more complete cost/history). A material evidence gap moves to the first set only when it is essential to that specific thesis or prevents bounding critical risk. For memes add a time-based review condition tied to the next catalyst/roughly one week, as well as the 1–2 month scenario horizon.
+
 If helpful, illustrate tranches as percentages of a **planned single-token budget**, with total allocation no greater than 100%; define unallocated reserves and release conditions. Without the user's portfolio, loss tolerance or budget, do not invent an absolute order size or claim a suitable percentage of total assets. Avoid generic heavy-position recommendations for early, illiquid or uncertain projects. Any proposed tranche must fit observable executable liquidity; if depth is unknown, do not claim a maximum size is safe. Do not submit orders or set up monitoring merely because a reference screenshot contains a strategy or monitoring offer.
 
 When numeric entry zones are unsupported, explicitly state that no reliable buy range can be given and provide concrete observation triggers instead. Do not turn the absence of data into an arbitrary cheap-entry recommendation.
 
 ## Compact final-assessment format
 
-Use this structure in the user's language; replace fields with observed/derived results, remove no mandatory judgment, and use `Unknown/暂不评分/无法可靠量化` where appropriate. A full report can place evidence above it; a short answer can use a compact version.
+End every asset assessment with exactly these five visibly separate **plain-text lines**, with populated values. Keep the title and labels unnumbered and outside a table, code fence or quotation block. In Markdown, use a hard line break (two trailing spaces) or separate paragraphs so the renderer preserves the line separation; never emit literal escaped newlines or HTML space entities. The example below documents the shape, not a fixed recommendation:
 
 ```text
 最终投资评级
-综合：<A/B/C/D/F> / <score out of 10, or 不考虑/暂不评分>
-当前赔率：<stars and numeric label, or 无法可靠评估> — <why>
-当前策略：<phased entry / conditional first entry / wait / do not consider>
-口径：<category; timestamp/timezone; price; market cap/FDV; confidence>
-
-核心赔率区：<range and basis, or currently not applicable>；<entry condition>
-首笔可考虑区：<range and basis, or currently not applicable>；<condition>
-加仓/减仓与不追高：<specific valuation/evidence triggers>
-失效条件：<what breaks the buying thesis>
-
-发展与市值空间：<scenario table with downside/base/conditional upper range>
-<For each: horizon, milestones, supply basis, implied price/return if known, failure condition>
-上限约束：<what limits the range and what could justify more>
-
-评级依据：<base score, valuation adjustment, caps; decisive holder/launch findings>
-一句话投资逻辑：<what development outcome is being bought, and the central uncertainty>
+综合: <A/B/C/D/F>
+当前赔率: <1–5 ⭐, or 无法可靠评估/不适用>
+当前策略: <买入/少量买入/分批买入/等待触发/不买入>
+买入策略: <market cap/FDV range and first-entry/add/wait action, or exclusion/review condition>
 ```
 
-For `F`, replace all entry/add fields with a concise `不买入；重新评估条件：...`, and use `不适用` for odds/upside where a model is invalid. Do not fill the format with a conflicting buy plan. Comparisons with another project are optional and require fresh matched evidence; a familiar name is not a valuation comparable by itself. On updates, explain what changed in development, valuation space, strategy and grade since the previous dated snapshot.
+Use only a letter on `综合`, not `A / 8.4`, a plus/minus suffix or a confidence annotation. `买入策略` should be a concrete sentence such as a **newly derived** valuation band followed by whether a first small position is worthwhile there, and any decisive condition. State `市值` or `FDV` explicitly when ambiguity matters. Do not copy the reference screenshot's ranges into another asset. If no numeric range is supportable, say so and give a specific trigger. If identity is unresolved, use `综合: 无法评级` rather than inventing an asset.
+
+Place timestamp, category, confidence, current valuation, scoring explanation, sources, peer comparison, downside/base/upper scenarios, sizing assumptions, add/reduce/no-chase levels and thesis/time invalidation **before** these five lines. The final line is the strategy, not an offer to continue or start monitoring. For `F`, use `当前策略: 不买入` and a `买入策略` that states exclusion/review conditions, never a dip-buy recommendation. On updates, explain changes to development, price, grade and strategy in the preceding analysis. Early low-valued application comparisons are required when suitable peers are available; use dated matched evidence rather than familiar names or later price outcomes.

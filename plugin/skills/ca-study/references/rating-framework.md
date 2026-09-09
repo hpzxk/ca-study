@@ -10,20 +10,20 @@ Grades measure evidence-adjusted **buying attractiveness at the current price/ma
 - `D` 30–49 / 3.0–4.9: poor current entry; avoid new buying and reassess only after specified improvements
 - `F` 0–29 / 0.0–2.9, or an exclusion override: **当前不考虑**; unsuitable current economics, unresolved critical investability, confirmed failure, or verified malicious conduct
 
-Always show confidence `high/medium/low` and two to four decisive reasons. Compute internally in whole points out of 100; show the supported final score divided by 10 to one decimal, such as `综合：A / 8.4（满分 10）`. Do not add plus/minus grades. `F` does not itself allege fraud: specify `估值/风险收益不合适`, `关键证据不足，暂不考虑`, `已确认失败/弃项`, or `已证实恶意行为`, as applicable. Missing evidence is not a neutral passing score.
+Show confidence `high/medium/low` and two to four decisive reasons before the final verdict. Compute internally in whole points out of 100; numeric scoring is optional supporting detail, never appended to the final `综合: A` line. Do not add plus/minus grades. `F` does not itself allege fraud: specify `估值/风险收益不合适`, `关键证据不足，暂不考虑`, `已确认失败/弃项`, or `已证实恶意行为`, as applicable. Missing evidence is not a neutral passing score.
 
 ## Build one overall grade
 
-1. Score the relevant category below using the existing weights (100 total). Include current holder-cost, launch-sale, and liquidity findings from [holders-and-launch.md](holders-and-launch.md) in its 15-point token/holder-health dimension. Include proven operator conduct in integrity, explaining distinct effects instead of duplicating deductions.
-2. Add a separate **current valuation adjustment from -30 to +15 points**. Keep price attractiveness out of the base score: product revenue and token capture belong in the base, while their relationship to price belongs in this adjustment. Never add a second holder-risk adjustment for facts already scored in holder health.
-3. Clamp the adjusted score to 0–100, then apply evidence/risk ceilings. For a numeric ceiling, cap the effective score at that band's maximum (for example, `C` at 64 and `D` at 49), so the headline grade and score agree. Retain the uncapped arithmetic and name the binding reason in the explanation. A disqualifying override produces `F / 不考虑（否决项）`; when evidence cannot support a numeric result, show `暂不评分` instead of fabricating zero or pairing `F` with a misleading high headline score.
-4. Report the headline grade/score, confidence, odds and strategy using the companion format. Under it explain `category base X/100; valuation +Y/-Y; adjusted Z/100; cap/override; final result`. Explain valuation and on-chain contributions even in a short answer. Neither a category base score nor a large hypothetical market-cap target substitutes for the overall grade.
+1. Choose the investment thesis and scoring mode before assigning points: `operating application`, `early application expectation trade`, or `meme near-term breakout`. Use the matching table (100 total) rather than selecting whichever produces the highest grade. For an early low-valued application, explicitly run the expectation-trade assessment; a weak product-maturity assessment alone cannot end the current-buy analysis. Include holder/launch findings in the selected mode's holder-health dimension and distinct operator conduct in integrity without duplicate deductions.
+2. For operating applications and memes, add the existing **valuation adjustment from -30 to +15 points**, keeping price attractiveness out of the base score. The early-application table already gives relative valuation and rerating room 30 points: do **not** add the valuation adjustment again. Expectations can earn points for their evidenced plausibility and market opportunity, not for pretending future users/revenue already exist.
+3. Clamp the adjusted score to 0–100, then apply justified evidence/risk ceilings. For a numeric ceiling, cap the effective score at that band's maximum (for example, `C` at 64 and `D` at 49) so the final letter agrees with the internal score. Explain any uncapped arithmetic and binding reason before the final block. A disqualifying override sets the grade to `F`; if numeric evidence is inadequate, do not fabricate zero or another score. The final `综合` field is always the letter alone.
+4. Put the scoring explanation before the final five-line verdict. For operating applications/memes, explain `base + valuation adjustment; caps; final grade`; for early applications, explain the expectation score and its embedded valuation contribution. Confidence, price zones and the choice of a small entry versus waiting must agree with that judgment. Neither a product-maturity score nor a large hypothetical target substitutes for the overall grade.
 
 ## Current valuation adjustment
 
 Obtain a current timestamped price, circulating market cap and supply basis, FDV, circulating/total supply relationship, liquidity/quote depth, volume quality, and material unlocks. Keep token market cap, FDV, treasury assets, and any underlying company's equity value separate. If circulation is unverified, explicitly label an FDV-based assessment; do not relabel FDV as market cap.
 
-- **Applications:** compare valuation with live usage, retained/paying customers, sustainable revenue, growth, and the portion that actually reaches this token. Compare matched peers with dated sources and consistent definitions; use scenarios where no suitable peers exist. Avoid annualizing a launch-day fee spike as durable earnings. Treasury value or protocol revenue is not a holder valuation floor without enforceable rights and a usable realization route.
+- **Applications:** compare current valuation with product/narrative credibility, development expectations, live usage where present and token capture. For pre-revenue/early projects, compare matched peers and the discount for uncertain delivery rather than requiring mature earnings first. Use dated sources and consistent definitions, or scenarios where no peers exist. Avoid annualizing launch fees as durable earnings. Unreconciled treasury value receives no verified floor credit, but does not automatically prohibit a small thesis based on relative valuation or a credible near-term catalyst.
 - **Memes:** compare valuation with independent reach, catalyst strength/lifecycle, community formation and staying power, holder/trader growth, and liquid peers at a comparable stage. Explain how much narrative success is already priced in. Do not require application revenue or use historical meme peaks as a guaranteed target.
 - **Both:** distinguish genuinely inexpensive from merely a small number. A low unit price, tiny float/high FDV, manipulated pool price, nearly empty pool, collapsing demand, or large pending supply is not proof of cheapness. High absolute market cap alone is not proof of overvaluation.
 
@@ -37,7 +37,7 @@ Use these adjustment anchors, with a reason for the chosen whole-number value:
 | -1 to -14 | Meaningful optimism already priced in or a valuation premium unsupported by adoption/attention |
 | -15 to -30 | Extreme premium, weak remaining upside relative to downside, or price requiring implausible growth/attention |
 
-Build downside, base and conditional upper valuation ranges from development milestones under [valuation-and-strategy.md](valuation-and-strategy.md), then derive entry zones from that opportunity and its risks. Mark unsupported valuation `Unknown` and use no positive adjustment, with the evidence cap below. If no numeric range is supportable, say so and use a concrete condition. An ordinary but credible project may move up on price, while an excellent expensive project may move down. Cheapness never overrides safety failures, severe sell-pressure caps, or freshness/evidence ceilings. An economic `F` may improve after sufficient repricing or verified development; a confirmed rug is not rehabilitated by a lower price.
+Build downside, base and conditional upper valuation ranges from development milestones under [valuation-and-strategy.md](valuation-and-strategy.md), then derive entry zones from that opportunity and its risks. Mark unsupported valuation `Unknown` and use no positive adjustment, with the evidence treatment below. If no numeric range is supportable, say so and use a concrete condition. An ordinary but credible project may move up on price, while an excellent expensive project may move down. Cheapness never overrides safety failures or justified critical-risk caps. An economic `F` may improve after sufficient repricing or verified development; a confirmed rug is not rehabilitated by a lower price.
 
 ## Holder risk and evidence ceilings
 
@@ -46,9 +46,9 @@ Use current positions, cost coverage, realized and unrealized profits, and launc
 - Large unrealized gains combined with concentrated remaining low-cost supply, little verified cost-basis reset, and shallow executable depth reduce the holder-health score. High profits alone do not prove low turnover or an imminent dump.
 - If verified remaining insider/early-winner inventory could overwhelm observed exit depth and observed selling or weak demand corroborates that risk, cap at `D`; use `F / 当前不考虑` for an extreme overhang with negligible practical exit capacity. State quantities, dates, and the liquidity comparison. There is no universal profit multiple that proves this condition.
 - A substantially exited launch cohort may have less remaining overhang; a wallet transfer is not proof of exit. Past realized profit without a remaining position is not current sellable inventory. Confirmed rug behavior still forces `F` even after insiders finish selling.
-- Materially missing/stale valuation or an inability to assess large-holder cost/remaining-inventory or launch-sale exposure prevents a strong current-buy call: use a **provisional grade no higher than `C`, low confidence**, specify coverage and the missing evidence, and use lower grades where known risks warrant them. Partial gaps need not trigger this ceiling if bounded evidence still answers the material risk; explain why.
+- Missing/stale price, supply basis or liquidity that prevents a meaningful current-entry comparison must be refreshed or reported as unrateable for price attractiveness; do not invent an undervaluation bonus. Distinguish this from incomplete product delivery, treasury reconciliation, or detailed holder cost basis. Those maturity/history gaps alone do **not** impose a blanket `C/D` cap or require waiting for full proof. Attempt the holder/launch checks, state what is unknown and how much remaining concentration is observable, and use lower confidence, smaller initial exposure and stricter add conditions for manageable uncertainty. If even a bounded view of material insider inventory/control cannot be established, explain that specific risk and cap at `C` or lower; this is not a missing-field shortcut.
 - If target token identity, sellability, or usable liquidity itself cannot be established, an identified candidate receives **provisional `F / 当前不考虑：关键证据不足`, low confidence**, with no manufactured numeric score. Do not call it a scam. If no unique token can be identified at all, mark rating `无法评级：标的未确认` and resolve identity rather than grading an invented asset.
-- `A` requires a supported favorable/fair entry valuation, credible development upside, adequate holder/launch coverage, practical exit liquidity, at least medium confidence, and no unresolved critical flaw. A large theoretical upside alone cannot award `A`. If only these requirements fail, cap at `B` (79), unless another ceiling is stricter.
+- `A` requires supported favorable/fair valuation, credible near-term upside, bounded material holder/launch risk, practical exit liquidity, at least medium confidence, and no unresolved critical flaw. Full product maturity or every holder's exact cost is not required. A large theoretical upside alone cannot award `A`. If only these requirements fail, cap at `B` (79), unless another ceiling is stricter. An early speculative `B` can justify `少量买入` despite low confidence when tradability, observable risk, relative discount and catalysts support it; label the speculation explicitly.
 
 Confidence reflects source quality, freshness and coverage, not enthusiasm. API errors and missing fields never count as zero profits, zero bundles, zero sales, or passing checks.
 
@@ -65,18 +65,45 @@ Confidence reflects source quality, freshness and coverage, not enthusiasm. API 
 
 Announced features do not count as live usage. Reported revenue does not count as holder value capture unless the link is verified.
 
+## Early application expectation score
+
+Use for a pre-revenue or incompletely delivered application whose buy thesis is a small, early position before a near-term milestone or narrative repricing. Select it because of the actual investment stage, not to rescue a proven failed project. Keep the operating application's maturity assessment as context, not a ceiling on the expectation trade.
+
+| Dimension | Weight | What matters |
+| --- | ---: | --- |
+| Relative valuation and repricing room | 30 | Current market cap/FDV versus genuinely comparable tokens; justified discount, supply, realistic nearby valuation range |
+| Product/narrative credibility and near-term milestone | 20 | Coherent proposition, independent implementation/development evidence, a concrete catalyst and feasible timing |
+| Plausible token demand/value capture | 15 | A supported route to future token demand/capture; separate mechanism, expectation and already realized cash flows |
+| Attention, demand and executable liquidity | 15 | Early discovery, independent interest/buyers, sufficient entry/exit capacity and remaining room before saturation |
+| Operator and contract risk | 10 | Observable delivery/identity/code evidence, controls and sellability; unknown is not verified safety |
+| Holder and launch overhang | 10 | Remaining concentration, traced early inventory, observed sales and bounded cost/launch uncertainty |
+
+Before giving a low-valued application `D`, answer: what matched peer costs more today, is its premium justified, what can reprice this token before full delivery, and is a small entry attractive at the present discount? If there is no suitable peer, use a stated scenario instead of manufacturing one. Missing mature product metrics cannot be the sole reason to stop at `D`.
+
+If the expectation case supports a higher grade, recompute the **final current-buy grade** using this mode. Do not leave a maturity-derived `D` in the headline while appending a contradictory small-buy suggestion. Conversely, a small market cap alone does not force an upgrade when demand, credibility, liquidity or relative value is absent.
+
+Show a compact peer comparison when peers exist: exact tokens, observation time, circulating market cap/FDV, product/stage, rights/capture, liquidity, holder risk, near-term catalyst, and reasons for premium/discount. Similar ticker/category alone is not similarity. A substantially cheaper comparable token can receive a higher current-buy grade even with ordinary fundamentals; a more developed expensive token can receive a lower one.
+
+Explicitly compare **small entry now** with **wait for confirmation**. Identify what uncertainty the current discount compensates for, what verification could unlock a rerating, and the possible valuation cost of waiting. Use incomplete delivery/full treasury reconciliation/detailed holder costs as add-position or reassessment conditions when they are not essential to the current small-entry thesis. Do not erase a material unresolved custody/solvency or sellability failure by calling it early stage.
+
+If later price outcomes are supplied as feedback, use them to inspect the decision process, not to retroactively manufacture a winning forecast. A hypothetical $600k token versus a materially higher-valued similar peer can justify a different entry grade on contemporaneous evidence; a later 6× price move is not itself evidence that the earlier rating should have been `A`. Keep user-reported retrospective prices unverified unless separately researched. Do not hardcode any named example, launchpad or dollar threshold as an automatic buy.
+
 ## Meme score
 
 | Dimension | Weight | What matters |
 | --- | ---: | --- |
-| Meme power and cultural impact | 25 | Recognition, clarity, originality, remixability, crypto relevance |
-| Organic community voice | 25 | Unique creators/participants, non-official mentions, sustained discussion |
+| Meme power and emotional transmission | 20 | Recognition, clarity, originality, remixability, crypto relevance and timely emotional appeal |
+| Organic community formation | 20 | Independent creators/participants, growth velocity, non-official mentions and conversion into traders/holders |
 | Holder and liquidity health | 15 | Concentration/clusters, pool depth, verified turnover, large-holder realized/unrealized profits, launch-bundle sales and remaining inventory |
-| Narrative durability | 15 | Longevity beyond one event/KOL, adaptability without identity loss |
-| Catalysts and distribution | 10 | Reach, integrations/listings/events, breadth rather than one-account dependence |
+| Near-term breakout setup | 20 | Concrete 24–72 hour / 7-day catalyst, accelerating independent attention and demand, room to expand within 1–2 months |
+| Launchpad support and distribution | 15 | Exact platform, incentives/capability, token-specific promotion/funding/liquidity actions, relevant recent track record and organic alternatives |
 | Contract/operator integrity | 10 | Sellability, privileged controls, launchpad/operator behavior |
 
 Do not penalize a pure Meme merely for lacking application utility. Do penalize fake partnerships, purchased/botted community, manufactured engagement, insider concentration, or a meme that has no reach beyond the official account.
+
+Default to a **1–2 month** opportunity horizon and prioritize whether an outbreak can form in the **next 7 days**, with 24–72 hour checkpoints for very new coins. Assess narrative ignition, independent spread, buyer conversion, liquidity and low-cost supply together. Do not substitute a 6–12 month vision for the current entry. No credible near-term catalyst plus fading attention/demand materially weakens the grade and favors reducing the waiting window; one quiet week alone is not proof of death or an automatic `F`.
+
+Always assess launchpad support using [pools-and-launchpads.md](pools-and-launchpads.md). A platform's incentives, resources and relevant successes can support an explicitly conditional hypothesis of assistance; token-specific actions are stronger evidence. Being created on a platform does not establish endorsement or guaranteed price support. Concentrated platform/market-maker control may create both a short-term catalyst and exit risk; score these separately and never reward suspected manipulation as a safety feature.
 
 For meme and event coins, prioritize the following evidence inside the dimensions above:
 
@@ -95,7 +122,7 @@ Use `F` whenever the current buying case should not be considered, including an 
 
 A verified honeypot, actual unauthorized mint/drain, deliberate false official-stock/issuer claim, confirmed compromised account used to promote the token, or removable liquidity deliberately misrepresented as irrevocably locked forces `F` regardless of narrative strength or low valuation. Confirmed rug liquidity removal, deployer/insider dumping that collapses the market, blocked selling, stolen funds, or other completed rug conduct also forces `F`. Explain the exact evidence and do not disguise it as an ordinary low score. Ordinary creator sales, LP rebalancing, or a verified liquidity migration alone are not completed rug conduct.
 
-## Freshness downgrades and rating caps
+## Project age and stage uncertainty
 
 Newness is not automatically fraud. Its rating effect depends on category. It materially reduces evidence for an application's delivery, reputation, usage, revenue, and operator integrity. For a pure meme or genuine event coin, rapid creation can be part of the opportunity: newness primarily limits confidence and proof of durability, while the current grade should be driven by catalyst quality, emotional transmission, independent reach, launch fairness, distribution, and profit overhang. Never award points for a polished launch package merely because it looks complete.
 
@@ -108,15 +135,14 @@ Use these default signals, adjusted when the chain or market context makes anoth
 
 Apply the following constraints:
 
-- For applications, two or more freshness signals concentrated within days must lower the relevant grade by at least one band versus the feature-only assessment, and the report must name the dates causing the downgrade.
-- For applications, a recent domain + recent/recycled X presence + new token + no credible independent corroboration is normally capped at `C`, even if the narrative and website are polished.
-- If that application cluster also includes an anonymous/no-history operator and a template shell with no live product or usage, the application grade is normally `D`.
-- Do **not** mechanically apply those application freshness caps to a pure meme. A same-day event meme may earn a strong category score when the catalyst is authentic and high-reach, emotional transmission is strong, independent propagation is visible, and launch/distribution are healthy. Its overall current-buy grade must still account for valuation, profit overhang, and evidence ceilings. Apply lower confidence or weak durability where history is short, and downgrade for fabricated endorsement, attention hijacking presented as official support, bundled/insider-heavy launches, excessive early-profit overhang, or engagement confined to official/raid accounts.
+- For applications, recent domain/social/token dates weaken delivery-history evidence; record them and score only what is supported. They do not create an automatic letter downgrade or `C/D` ceiling on an expectation-based entry. Evaluate the early-application mode, relative valuation and the cost of waiting before deciding the final grade.
+- A recent anonymous template shell without credible implementation, independent demand or a feasible catalyst earns weak credibility/demand points. If it also lacks a defensible relative-value case, `D` or `F` can be appropriate. Explain the combination rather than treating newness or missing mature metrics alone as disqualifying.
+- For memes, same-day creation can be part of the opportunity. Judge the next week's catalyst, emotional transmission, independent propagation, launchpad support, distribution and current valuation. Apply lower confidence where history is short, and downgrade for fabricated endorsement, attention hijacking presented as official support, insider-heavy launches, excessive profit overhang or engagement confined to raid accounts.
 - A new meme with no real catalyst, no independent propagation, poor distribution, and only a newly created promotional account remains `D` or `C` as the evidence supports; newness alone is not the reason.
 - Verified abandonment, deleted socials/site with no surviving official operation, a liquidity rug/drain, blocked selling, deployer dumping that collapses the market, deliberate fabricated partnerships/metrics used to sell the token, or a launch shell that has already collapsed forces `F`.
 
 Use `F` for outcome failure as well as proven malicious conduct. A token/project that has effectively gone to zero, lost functional liquidity, and no longer has a working product or active operator is `F` even when intent cannot be proven. State whether the basis is `confirmed malicious/rug` or `failed/abandoned`; do not accuse operators of fraud when only failure is proven.
 
-Do not double-count the same fact mechanically across every dimension. Explain how short history prevents verification of product usage, team execution, community durability, or operator integrity. State what minimum passage of time and observable evidence could lift the cap.
+Do not double-count the same fact across dimensions. Explain how short history limits evidence and what observable action could improve confidence or justify adding. Do not demand time to pass for its own sake or require full maturity before a small expectation trade.
 
 End with what could change the current-buy grade: a better or worse valuation, verified holder cost-basis reset and remaining launch exposure, a verified issuer listing, real distribution transactions, retained-user data, audited controls, improved liquidity, or sustained organic community growth. On follow-ups, compare with the previous dated snapshot and explain whether the change came from fundamentals, price, holder inventory, or new evidence.

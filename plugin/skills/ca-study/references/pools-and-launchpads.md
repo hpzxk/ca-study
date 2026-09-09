@@ -6,6 +6,25 @@ Use this reference for launchpad attribution, DEX pools, liquidity, valuation, s
 
 Do not attribute a token from branding or ticker format alone. Seek a creation event from the launchpad factory, matching documented factory/deployer, factory call trace, or a launchpad page linking the exact CA and corroborated by the explorer. Distinguish `created on`, `uses liquidity from`, `listed by`, and `endorsed by`.
 
+## Meme launchpad support and control
+
+This assessment is mandatory for every meme rating, not just a launchpad-specific question. Resolve an ambiguous platform name to its exact factory/program, official website/accounts, chain and relevant sector before attributing support. No named platform or sector is a permanent whitelist.
+
+Evaluate three distinct questions: **can the platform help, why would it choose this token, and what has it actually done?** Examine fee/equity/token incentives, reputation and competition, flagship/sector fit, available distribution and capital/liquidity resources, and support for comparable recent launches. Include failed or unsupported launches and the observation window where available; a handful of winners does not establish a support success rate.
+
+Use an evidence ladder:
+
+- `Created/listed only`: launch provenance with no token-specific assistance established.
+- `Support hypothesis`: credible platform incentives/resources and relevant track record, but no action for this exact token yet. State what would confirm or invalidate it within the next week.
+- `Observed promotion`: exact-token official posts, featured placement, campaign/event or documented distribution support; distinguish generic launch announcements from selective promotion.
+- `Observed economic support`: attributable funding, token purchases, LP provision/incentives, retained inventory or documented market-making arrangements, with dates, amounts and transaction evidence where available.
+
+Treat plausible future support as a conditional near-term catalyst and confirmed action as stronger evidence. Absence of an explicit public promise does not make support impossible; the platform label alone does not make it likely. Record `Unknown` when evidence is unavailable rather than asserting the platform is uninvolved.
+
+When the question is whether the platform may `扶持/做市/控盘/坐庄`, separate legitimate market making or promotion from suspected coordinated price control and proven manipulation. Trace attributed wallets and LP control, initial/remaining inventory, purchases versus sales, and who can withdraw support. Common funding or synchronized trades alone do not prove ownership or intent. Concentrated control can amplify a short-term move and abrupt exits; report both, with holder/liquidity risk deductions. Do not describe alleged price control as guaranteed support or a safety benefit.
+
+The rating must state the platform, the support evidence level, the next 7-day action to watch, and the effect on breakout prospects and exit risk. Score support/distribution in the meme's 15-point dimension; avoid counting the same action again as a separate bonus elsewhere. Strong organic distribution can support that dimension even without a sponsor.
+
 ## Find the real market
 
 Enumerate all pools before selecting the main one. Record chain, DEX/version, pool address and age, exact base/quote CAs, liquidity, 24h volume/trades, price, FDV, reported market cap, fee tier, and LP custody/lock. Rank by executable liquidity, not volume, UI ordering, or ticker. Flag suspicious turnover when volume is extreme versus liquidity and trader activity is repetitive or thin.
