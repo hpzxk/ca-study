@@ -1,15 +1,15 @@
 {
   "name": "ca-study",
-  "version": "1.1.0+codex.20260910042626",
-  "description": "Evidence-first crypto buy ratings with heavily weighted tokenomics, holder capture, meme catalysts, early valuation opportunities, and a five-line verdict.",
+  "version": "1.1.0+codex.20260910083504",
+  "description": "Evidence-first crypto buy ratings with mandatory fixed-format tokenomics, explicit revenue recipients and ratio bases, holder capture, and a five-line verdict.",
   "author": {
     "name": "Personal workspace"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "ca-study",
-    "shortDescription": "Crypto ratings, tokenomics and current entry strategy",
-    "longDescription": "Every asset assessment ends with a five-line A/B/C/D/F verdict and entry strategy. Tokenomics carries 35/30/25 points for operating applications, early applications and memes, covering allocation, circulation, dilution, burns, buybacks, dividends and effective holder economics. Memes retain next-week catalysts, a 1-2 month horizon and launchpad checks; early applications retain relative-value expectation entries. Holder-profit, launch-bundle, liquidity and integrity checks remain mandatory.",
+    "shortDescription": "Crypto ratings and fixed-format tokenomics",
+    "longDescription": "Every asset assessment includes a fixed tokenomics block: supply/circulation, version-specific revenue splits, profit or retained-revenue routing, buyback mechanism/current ratio, and burn mechanism/current ratio. Every percentage names its denominator, recipient, purpose, token and evidence scope; unknowns remain visible. Tokenomics retains 35/30/25 points for operating applications, early applications and memes. Keep early relative-value entries, meme catalysts, holder-profit and launch-bundle checks, and the final five-line A/B/C/D/F verdict.",
     "developerName": "Personal workspace",
     "category": "Finance",
     "capabilities": [
@@ -17,6 +17,7 @@
       "On-chain analysis"
     ],
     "defaultPrompt": [
+      "\u7814\u7a76\u8fd9\u4e2a CA\uff0c\u5f3a\u5236\u6309\u4ee3\u5e01\u7ecf\u6d4e\u56fa\u5b9a\u683c\u5f0f\u5199\u603b\u91cf/\u6d41\u901a\u767e\u5206\u6bd4\u3001\u9010\u7248\u8425\u6536\u5206\u914d\u3001\u5229\u6da6\u5206\u914d\u3001\u56de\u8d2d\u673a\u5236/\u5f53\u524d\u56de\u8d2d\u6bd4\u4f8b\u3001\u9500\u6bc1\u673a\u5236/\u5f53\u524d\u9500\u6bc1\u6bd4\u4f8b\uff1b\u6bcf\u9879\u5199\u6e05\u5206\u6bcd\u3001\u5206\u7ed9\u8c01\u3001\u7528\u9014\u3001\u4ee3\u5e01\u53ca\u6838\u67e5\u72b6\u6001\uff0c\u7f3a\u9879\u5199\u672a\u6838\u5b9e\uff0c\u6536\u5165\u7528\u9014\u6bd4\u4f8b\u4e0e\u7d2f\u8ba1\u56de\u8d2d/\u9500\u6bc1\u4f9b\u5e94\u5360\u6bd4\u5206\u5f00\u3002",
       "\u5206\u6790\u8fd9\u4e2a CA\uff1a\u53d1\u5c04\u53f0\u3001\u4e3b\u6c60\u3001\u914d\u5bf9\u8d44\u4ea7\u3001\u5408\u7ea6\u6743\u9650\u3001\u56e2\u961f\u4e0e\u98ce\u9669\u3002",
       "\u67e5\u5e01\u80a1\u914d\u5bf9\u662f\u5426\u5b98\u65b9\uff0c\u5206\u7ea2\u662f\u5426\u771f\u5b9e\uff0c\u5e76\u4ecb\u7ecd\u5e95\u5c42\u80a1\u7968\u3002",
       "\u7ed3\u5408\u5f53\u524d\u5e02\u503c\u8bc4\u7ea7\uff1aMeme \u770b\u672a\u6765\u4e00\u5468\u50ac\u5316\u30011\u20132 \u4e2a\u6708\u673a\u4f1a\u548c\u53d1\u5c04\u53f0\u652f\u6301\uff1b\u65e9\u671f\u5e94\u7528\u6bd4\u8f83\u540c\u7c7b\u4f30\u503c\uff0c\u8bc4\u4f30\u5c0f\u4ed3\u4e70\u9884\u671f\uff1b\u6700\u540e\u4ee5\u4e94\u884c\u6587\u672c\u7ed9\u51fa\u8bc4\u7ea7\u3001\u8d54\u7387\u548c\u4e70\u5165\u7b56\u7565\u3002",

@@ -13,6 +13,23 @@ For memes, prioritize the next 7 days' breakout opportunity within a default 1�
 
 Tokenomics must materially affect every current-buy rating: **35/100 points for operating applications, 30/100 for early applications, and 25/100 for memes**. Assess allocation/insider terms, actual circulation, remaining unlocks/emissions, burn ratio, buyback ratio and dividend ratio with denominators, execution evidence and effective holder benefit. Distinguish promised percentages from realized flows; weigh net dilution and sustainable capture together. Strong verified economics may improve the grade; extractive distribution and weak holder capture may lower it despite a good product or small headline market cap. Pure memes need no income mechanism, and early applications need no mature payout history merely to qualify for a small expectation trade.
 
+## Mandatory tokenomics format
+
+Every CA/project investigation, including short follow-ups, must visibly include the following `代币经济` block before the final investment verdict. Keep these labels and order; do not replace the block with scattered prose, a score, or an unlabeled ratio such as `75% / 20% / 5%`. Fill every field with asset-specific evidence; unavailable information stays `未核实`, not zero or an omitted line. Plugin maintenance itself does not require an asset block.
+
+```text
+代币经济：
+总量：{数量、代币、初始/当前/最大供应口径} / 流通百分比：{流通数量 ÷ 明示供应基数 = 百分比，或未核实}
+营收分配：
+{v1版／当前版}：{分母是什么收入或手续费；平台 X%，发币者 Y%，其余比例分别给谁、做什么、涉及哪个代币}
+{v2版等，仅确有版本时逐版列出}：{同上；注明适用对象、当前/历史状态}
+利润分配：{明确是净利润还是平台所得收入；X% 用于购买哪个代币并销毁/持有，Y% 给谁或支付什么，剩余用途}
+回购机制：{有／无／未核实；已执行／仅宣布等状态}   当前回购比例：{累计已核实回购本币数量 ÷ 明示供应基数 = 百分比，或未核实}
+销毁机制：{有／无／未核实；已执行／仅宣布等状态}   当前销毁比例：{累计已核实不可恢复销毁本币数量 ÷ 明示供应基数 = 百分比，或未核实}
+```
+
+Use `当前版` when there is only one evidenced version; never invent v1/v2. Attach observation time, direct sources and `已验证／项目方声称／未核实` to the block or relevant lines. These cumulative supply ratios are distinct from the revenue/profit allocation percentages above. Explain each percentage's recipient, purpose, denominator and exact token. Do not call operating allocations net profit, count buyback-and-burn twice, copy a buyback ratio into the burn field, or reuse the user's Pons example as live data. Apply the detailed field definitions and examples in [references/tokenomics.md](references/tokenomics.md#fixed-output-contract), then add allocation/unlocks, dividends and rating impact as needed.
+
 Treat project age as material evidence, not a footnote, but apply it differently by category. For applications, a newly assembled website, social presence, product claim, and token materially weaken claims of delivery history. For a pure meme—especially a new event coin—same-day creation may be normal and must not by itself force a downgrade; report the short observation window and judge catalyst strength, propagation, launch fairness, holder cost basis, and whether attention survives the initiating event. Explicitly report the dates relevant to the category when obtainable. Distinguish an old recycled X account from real operating or community history.
 
 ## Start from identity, not narrative
@@ -58,7 +75,7 @@ Lead with a short verdict in the user's language: what it actually is, the overa
 - If stock-paired: one-sentence underlying stock profile with current market cap, company business, and main revenue/profit engine
 - Token/contract control
 - Fees, revenue, and holder distributions
-- Tokenomics: allocation and insider share, circulation/FDV, upcoming unlocks/emissions, burn/buyback/dividend ratios with their denominators, actual execution and net holder benefit; state how these affect the grade
+- Tokenomics: the mandatory `代币经济` block above, followed by allocation and insider share, circulation/FDV, upcoming unlocks/emissions, dividend ratios, actual execution and net holder benefit; state how these affect the grade
 - Website, X, team, and community
 - Project-age timeline: for applications, domain, first site evidence, X creation and first relevant post, token deployment, and pool/trading start; for pure memes, prioritize the initiating event, first coin post, launch, pool start, and subsequent attention/price inflections
 - Market snapshot: observation time/timezone, price, circulating market cap or explicit unknown, FDV, executable liquidity, volume quality, and dilution/unlocks

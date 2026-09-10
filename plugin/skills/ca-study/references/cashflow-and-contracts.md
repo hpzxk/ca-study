@@ -4,6 +4,8 @@ Use alongside the mandatory [tokenomics assessment](tokenomics.md). Its allocati
 
 Use this reference for taxes, revenue, yield, dividends, rebates, buybacks, burns, holder rights, and privileged controls.
 
+Present findings in the mandatory [fixed tokenomics format](tokenomics.md#fixed-output-contract). Under `营收分配`, name fee sources, recipients and actual versions; under `利润分配`, name every destination and distinguish platform revenue from net profit. Never leave a ratio such as `75% / 20% / 5%` unexplained. The fixed `当前回购比例` and `当前销毁比例` fields measure separately verified cumulative token quantities against a named supply basis; revenue-allocation and executed-spending ratios remain additional, explicitly labeled cash-flow metrics. Partial history cannot establish a lifetime cumulative ratio.
+
 ## Prove a distribution in layers
 
 Separate: **configured** in code/storage, **funded** with actual value, **allocated** into entitlements, **paid** to holders, and **repeatable** without discretionary treasury action. Trace a representative flow when possible: swap/fee → collector/escrow → conversion/deposit → distribution/claim → recipient. Give pivotal addresses and transaction hashes and reconcile inflows, retained balances, payouts, and withdrawals over the same interval.
