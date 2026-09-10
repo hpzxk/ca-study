@@ -14,10 +14,10 @@ Show confidence `high/medium/low` and two to four decisive reasons before the fi
 
 ## Build one overall grade
 
-1. Choose the investment thesis and scoring mode before assigning points: `operating application`, `early application expectation trade`, or `meme near-term breakout`. Use the matching table (100 total) rather than selecting whichever produces the highest grade. For an early low-valued application, explicitly run the expectation-trade assessment; a weak product-maturity assessment alone cannot end the current-buy analysis. Include holder/launch findings in the selected mode's holder-health dimension and distinct operator conduct in integrity without duplicate deductions.
+1. Choose the investment thesis and scoring mode before assigning points: `operating application`, `early application expectation trade`, or `meme near-term breakout`. Use the matching table (100 total) rather than selecting whichever produces the highest grade. For an early low-valued application, explicitly run the expectation-trade assessment; a weak product-maturity assessment alone cannot end the current-buy analysis. Always assess [tokenomics.md](tokenomics.md): allocation, circulation, dilution, burns, buybacks, dividends and effective holder capture. Include ownership design in tokenomics, current holder/launch selling and profits in holder health, and distinct operator conduct in integrity without duplicate deductions.
 2. For operating applications and memes, add the existing **valuation adjustment from -30 to +15 points**, keeping price attractiveness out of the base score. The early-application table already gives relative valuation and rerating room 30 points: do **not** add the valuation adjustment again. Expectations can earn points for their evidenced plausibility and market opportunity, not for pretending future users/revenue already exist.
 3. Clamp the adjusted score to 0–100, then apply justified evidence/risk ceilings. For a numeric ceiling, cap the effective score at that band's maximum (for example, `C` at 64 and `D` at 49) so the final letter agrees with the internal score. Explain any uncapped arithmetic and binding reason before the final block. A disqualifying override sets the grade to `F`; if numeric evidence is inadequate, do not fabricate zero or another score. The final `综合` field is always the letter alone.
-4. Put the scoring explanation before the final five-line verdict. For operating applications/memes, explain `base + valuation adjustment; caps; final grade`; for early applications, explain the expectation score and its embedded valuation contribution. Confidence, price zones and the choice of a small entry versus waiting must agree with that judgment. Neither a product-maturity score nor a large hypothetical target substitutes for the overall grade.
+4. Put the scoring explanation before the final five-line verdict. For operating applications/memes, explain `base + valuation adjustment; caps; final grade`; for early applications, explain the expectation score and its embedded valuation contribution. State how tokenomics strengthens or weakens the grade and which distribution/capture evidence drives that effect. Confidence, price zones and the choice of a small entry versus waiting must agree with that judgment. Neither a product-maturity score nor a large hypothetical target substitutes for the overall grade.
 
 ## Current valuation adjustment
 
@@ -39,10 +39,13 @@ Use these adjustment anchors, with a reason for the chosen whole-number value:
 
 Build downside, base and conditional upper valuation ranges from development milestones under [valuation-and-strategy.md](valuation-and-strategy.md), then derive entry zones from that opportunity and its risks. Mark unsupported valuation `Unknown` and use no positive adjustment, with the evidence treatment below. If no numeric range is supportable, say so and use a concrete condition. An ordinary but credible project may move up on price, while an excellent expensive project may move down. Cheapness never overrides safety failures or justified critical-risk caps. An economic `F` may improve after sufficient repricing or verified development; a confirmed rug is not rehabilitated by a lower price.
 
-## Holder risk and evidence ceilings
+## Tokenomics, holder risk and evidence ceilings
 
 Use current positions, cost coverage, realized and unrealized profits, and launch-cohort sales together; the companion reference defines the calculations and evidence boundaries.
 
+- Tokenomics is a substantial standalone component: **35 points for operating applications, 30 for early applications, and 25 for memes**. Use the component weights and evidence anchors in [tokenomics.md](tokenomics.md). A large burn percentage, low reported market cap or high promised payout never earns an automatic upgrade. Assess remaining insider ownership, net dilution, actual holder benefit and the revenue denominator together.
+- If an operating-application thesis depends on product earnings but verified rules direct value elsewhere and provide neither meaningful holder capture nor credible required token demand, cap that thesis at `C`. Explain the actual missing economic link. An early plausible capture mechanism awaiting delivery is different: lack of mature payout history alone does not trigger this ceiling. A pure meme is not required to distribute income.
+- Apply the inventory/exit ceilings below to verified material unlocks, emissions or treasury releases within the investment horizon as well as current holder inventory. No fixed team-allocation, burn or payout percentage automatically forces a grade; quantify who can sell, at what cost, when, and against what demand/depth. Confirmed deceptive payout or burn claims used to sell the token fall under the integrity overrides.
 - Large unrealized gains combined with concentrated remaining low-cost supply, little verified cost-basis reset, and shallow executable depth reduce the holder-health score. High profits alone do not prove low turnover or an imminent dump.
 - If verified remaining insider/early-winner inventory could overwhelm observed exit depth and observed selling or weak demand corroborates that risk, cap at `D`; use `F / 当前不考虑` for an extreme overhang with negligible practical exit capacity. State quantities, dates, and the liquidity comparison. There is no universal profit multiple that proves this condition.
 - A substantially exited launch cohort may have less remaining overhang; a wallet transfer is not proof of exit. Past realized profit without a remaining position is not current sellable inventory. Confirmed rug behavior still forces `F` even after insiders finish selling.
@@ -56,12 +59,13 @@ Confidence reflects source quality, freshness and coverage, not enthusiasm. API 
 
 | Dimension | Weight | What matters |
 | --- | ---: | --- |
-| Live product and usage proof | 25 | Usable product, retained users, real activity rather than wallet farming |
-| Revenue and token value capture | 20 | Verified revenue, sustainability, enforceable holder capture; price relationship is assessed separately |
-| Differentiation and moat | 15 | Real advantage, integrations, switching costs, defensibility |
-| Team, contract and operations | 15 | Delivery history, transparency, security, admin/custody controls |
-| Token/liquidity/distribution | 15 | Supply/unlocks, concentration, exit depth, large-holder cost/profit/remaining inventory, launch-bundle sales |
-| Execution and regulatory durability | 10 | Roadmap credibility, dependencies, jurisdiction/RWA exposure |
+| Tokenomics and holder economics | 35 | Supply/net dilution 8, allocation/alignment 7, effective holder capture 20; verified burn/buyback/dividend ratios, funding, execution and rights |
+| Live product and usage proof | 20 | Usable product, retained users, real activity rather than wallet farming |
+| Operating revenue quality | 10 | Real recurring external revenue, cost and incentive coverage; holder allocation is scored in tokenomics |
+| Differentiation and moat | 10 | Real advantage, integrations, switching costs, defensibility |
+| Team, contract and operations | 10 | Delivery history, transparency, security, admin/custody controls |
+| Current holder and liquidity health | 10 | Exit depth, large-holder cost/profit/remaining inventory, turnover and launch-cohort sales; structural allocation belongs in tokenomics |
+| Execution and regulatory durability | 5 | Roadmap credibility, dependencies, jurisdiction/RWA exposure |
 
 Announced features do not count as live usage. Reported revenue does not count as holder value capture unless the link is verified.
 
@@ -72,11 +76,11 @@ Use for a pre-revenue or incompletely delivered application whose buy thesis is 
 | Dimension | Weight | What matters |
 | --- | ---: | --- |
 | Relative valuation and repricing room | 30 | Current market cap/FDV versus genuinely comparable tokens; justified discount, supply, realistic nearby valuation range |
-| Product/narrative credibility and near-term milestone | 20 | Coherent proposition, independent implementation/development evidence, a concrete catalyst and feasible timing |
-| Plausible token demand/value capture | 15 | A supported route to future token demand/capture; separate mechanism, expectation and already realized cash flows |
-| Attention, demand and executable liquidity | 15 | Early discovery, independent interest/buyers, sufficient entry/exit capacity and remaining room before saturation |
-| Operator and contract risk | 10 | Observable delivery/identity/code evidence, controls and sellability; unknown is not verified safety |
-| Holder and launch overhang | 10 | Remaining concentration, traced early inventory, observed sales and bounded cost/launch uncertainty |
+| Tokenomics and plausible holder economics | 30 | Supply/net dilution 8, allocation/alignment 7, plausible capture 15; distinguish credible future rights/demand from already executed burns/buybacks/dividends |
+| Product/narrative credibility and near-term milestone | 15 | Coherent proposition, independent implementation/development evidence, a concrete catalyst and feasible timing |
+| Attention, demand and executable liquidity | 10 | Early discovery, independent interest/buyers, sufficient entry/exit capacity and remaining room before saturation |
+| Operator and contract risk | 5 | Observable delivery/identity/code evidence, controls and sellability; unknown is not verified safety |
+| Current holder and launch overhang | 10 | Traced remaining early inventory, holder profits, observed sales and bounded cost/launch uncertainty; avoid repeating allocation-design deductions |
 
 Before giving a low-valued application `D`, answer: what matched peer costs more today, is its premium justified, what can reprice this token before full delivery, and is a small entry attractive at the present discount? If there is no suitable peer, use a stated scenario instead of manufacturing one. Missing mature product metrics cannot be the sole reason to stop at `D`.
 
@@ -92,12 +96,13 @@ If later price outcomes are supplied as feedback, use them to inspect the decisi
 
 | Dimension | Weight | What matters |
 | --- | ---: | --- |
-| Meme power and emotional transmission | 20 | Recognition, clarity, originality, remixability, crypto relevance and timely emotional appeal |
-| Organic community formation | 20 | Independent creators/participants, growth velocity, non-official mentions and conversion into traders/holders |
-| Holder and liquidity health | 15 | Concentration/clusters, pool depth, verified turnover, large-holder realized/unrealized profits, launch-bundle sales and remaining inventory |
+| Tokenomics and distribution alignment | 25 | Supply/float/net dilution 10, allocation/alignment 10, holder incentives 5; verify burns/buybacks/dividends when claimed, without requiring income for a pure meme |
+| Meme power and emotional transmission | 15 | Recognition, clarity, originality, remixability, crypto relevance and timely emotional appeal |
+| Organic community formation | 15 | Independent creators/participants, growth velocity, non-official mentions and conversion into traders/holders |
+| Current holder and liquidity health | 5 | Pool depth, verified turnover, large-holder realized/unrealized profits, launch-bundle sales and remaining inventory; severe risks still impose binding ceilings |
 | Near-term breakout setup | 20 | Concrete 24–72 hour / 7-day catalyst, accelerating independent attention and demand, room to expand within 1–2 months |
 | Launchpad support and distribution | 15 | Exact platform, incentives/capability, token-specific promotion/funding/liquidity actions, relevant recent track record and organic alternatives |
-| Contract/operator integrity | 10 | Sellability, privileged controls, launchpad/operator behavior |
+| Contract/operator integrity | 5 | Sellability, privileged controls, launchpad/operator behavior; integrity overrides remain binding regardless of weight |
 
 Do not penalize a pure Meme merely for lacking application utility. Do penalize fake partnerships, purchased/botted community, manufactured engagement, insider concentration, or a meme that has no reach beyond the official account.
 

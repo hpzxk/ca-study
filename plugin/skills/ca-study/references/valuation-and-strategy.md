@@ -2,6 +2,8 @@
 
 Use in every project/token investigation alongside [rating-framework.md](rating-framework.md) and [holders-and-launch.md](holders-and-launch.md). Connect the current entry decision to what the project can plausibly become, what value accrues to the token, what valuation that could support, and what the holder can actually realize on exit. Reference reports are examples of presentation, not evidence for a new asset's claims, targets, or strategy.
 
+Carry the mandatory [tokenomics assessment](tokenomics.md) into each scenario and entry decision: actual distribution, circulating/total supply, upcoming float releases, net issuance/burns, and the share of sustainable cash flow benefiting this exact token. State how it changes the grade and valuation. A small circulating market cap with heavy insider dilution may offer less upside per token than a higher-cap, broadly distributed peer; a favorable structure can justify a relative premium, subject to demand and executable liquidity.
+
 ## Work from development to token valuation
 
 First state the investment thesis in one sentence: what must become true for this token to deserve materially more value. Establish the present stage and separate verified achievements from plausible expectations. **Memes default to 1–2 months, with priority on a breakout catalyst in the next 7 days and 24–72 hour checkpoints for new launches.** An application horizon follows its actual catalyst/delivery cycle; distinguish a near-term expectation trade from a longer operating thesis. Do not use a 6–12 month meme vision to justify today's entry unless the user explicitly requests that horizon.
@@ -18,6 +20,7 @@ For low-valued early applications, use the expectation-trade mode in [rating-fra
 - Derive an operating scenario from measurable inputs, such as retained paying users × recurring spend, or credible transaction activity × effective fee rate. Do not annualize a promotional launch burst as recurring earnings. Include costs, incentives and net economics where they matter.
 - Explain the exact route from product success to token value: enforceable distributions, recurring buybacks from external earnings, required token demand, or other verified rights/mechanics. A successful application without meaningful token capture can still be an unattractive token purchase.
 - Use matched, current comparables with consistent metrics, or an explicit scenario model. Where a cash-flow multiple is appropriate, identify the sustainable annual cash flow actually accruing to the token and a supported multiple; do not apply the entire company's revenue or enterprise value to token holders. Where no defensible cash-flow claim exists, avoid presenting an equity-style valuation as intrinsic token value.
+- Model the actual routing basis: eligible distributable cash × effective non-overlapping holder-capture share, with business costs, eligibility, dilution and rule-change risk. Compare both the capture percentage and absolute cash amount. Buying and then burning the same tokens is one cash use; token buybacks are not dividends paid to every holder. Undelivered but credible early mechanisms belong in conditional scenarios, with implementation/payout evidence as add-position triggers where appropriate.
 - Keep treasury, collateral, LP assets, TVL, underlying-stock equity, protocol revenue, and holder rights separate. Do not add the same asset or cash flow twice, or treat inaccessible treasury assets as a redemption floor. Required token/collateral demand needs a turnover/velocity assumption, not just total product transaction volume.
 
 ### Memes and event coins
@@ -52,6 +55,8 @@ State the limiting factor: addressable demand, growth/retention, token capture, 
 ### Supply and return arithmetic
 
 Use consistent valuation denominators across scenarios and peers. For circulating market cap, `target price = target market cap / expected circulating supply at the horizon`; for FDV use total supply consistently. Include unlocks, emissions and only credible, supported burn assumptions. `price multiple = target price / current price`; `return = price multiple - 1`. Market-cap growth does not equal holder return when supply changes.
+
+Reconcile actual supply and expected float under [tokenomics.md](tokenomics.md). Initial non-circulating burns, burns already reflected in the current supply basis, and buyback tokens retained for later redistribution must not be deducted again as future deflation. Show an adverse capture/dilution scenario when revocable payout rates or material upcoming releases can change the buying case. A known flaw should affect the price paid or binding risk cap, not disappear behind a headline target.
 
 Illustrative arithmetic only: current market cap $1.5M with 100M circulating tokens implies $0.015. A future $6M market cap with 200M circulating tokens implies $0.03: 2× price / +100%, despite 4× market cap. This is not a target for any named token.
 

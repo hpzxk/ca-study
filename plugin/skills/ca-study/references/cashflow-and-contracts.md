@@ -1,5 +1,7 @@
 # Cash flow, distributions, and contract control
 
+Use alongside the mandatory [tokenomics assessment](tokenomics.md). Its allocation, circulation, burn/buyback/dividend ratios and net-dilution findings carry substantial weight in the overall rating; this reference supplies the execution and control evidence. A revenue-sharing claim does not by itself establish ownership of the project or equity rights.
+
 Use this reference for taxes, revenue, yield, dividends, rebates, buybacks, burns, holder rights, and privileged controls.
 
 ## Prove a distribution in layers
