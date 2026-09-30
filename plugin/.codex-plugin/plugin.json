@@ -1,15 +1,15 @@
 {
   "name": "ca-study",
-  "version": "1.1.0+codex.20260910083504",
-  "description": "Evidence-first crypto buy ratings with mandatory fixed-format tokenomics, explicit revenue recipients and ratio bases, holder capture, and a five-line verdict.",
+  "version": "1.2.0+codex.20260930",
+  "description": "Evidence-first crypto ratings, fixed-format tokenomics and market-cap entries from 1h+ charts, operating continuity and ATH drawdown.",
   "author": {
     "name": "Personal workspace"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "ca-study",
-    "shortDescription": "Crypto ratings and fixed-format tokenomics",
-    "longDescription": "Every asset assessment includes a fixed tokenomics block: supply/circulation, version-specific revenue splits, profit or retained-revenue routing, buyback mechanism/current ratio, and burn mechanism/current ratio. Every percentage names its denominator, recipient, purpose, token and evidence scope; unknowns remain visible. Tokenomics retains 35/30/25 points for operating applications, early applications and memes. Keep early relative-value entries, meme catalysts, holder-profit and launch-bundle checks, and the final five-line A/B/C/D/F verdict.",
+    "shortDescription": "Crypto ratings, tokenomics and chart-based entries",
+    "longDescription": "Every asset assessment includes a fixed tokenomics block: supply/circulation, version-specific revenue splits, profit or retained-revenue routing, buyback mechanism/current ratio, and burn mechanism/current ratio. Every percentage names its denominator, recipient, purpose, token and evidence scope; unknowns remain visible. Tokenomics retains 35/30/25 points for operating applications, early applications and memes. Keep early relative-value entries, meme catalysts, holder-profit and launch-bundle checks, and the final five-line A/B/C/D/F verdict. Entry strategy now assesses 1h/4h/daily charts, at least 7 days of continuous operation, the user-defined sub-$10M and $10M+ ATH drawdown zones, and the 78.6% reference. Give market-cap first-entry, confirmation and invalidation levels; longer verified operation can support a shallower discount. C can permit a bounded technical entry; confirmed rug and critical investability exclusions remain binding.",
     "developerName": "Personal workspace",
     "category": "Finance",
     "capabilities": [
@@ -17,11 +17,12 @@
       "On-chain analysis"
     ],
     "defaultPrompt": [
-      "\u7814\u7a76\u8fd9\u4e2a CA\uff0c\u5f3a\u5236\u6309\u4ee3\u5e01\u7ecf\u6d4e\u56fa\u5b9a\u683c\u5f0f\u5199\u603b\u91cf/\u6d41\u901a\u767e\u5206\u6bd4\u3001\u9010\u7248\u8425\u6536\u5206\u914d\u3001\u5229\u6da6\u5206\u914d\u3001\u56de\u8d2d\u673a\u5236/\u5f53\u524d\u56de\u8d2d\u6bd4\u4f8b\u3001\u9500\u6bc1\u673a\u5236/\u5f53\u524d\u9500\u6bc1\u6bd4\u4f8b\uff1b\u6bcf\u9879\u5199\u6e05\u5206\u6bcd\u3001\u5206\u7ed9\u8c01\u3001\u7528\u9014\u3001\u4ee3\u5e01\u53ca\u6838\u67e5\u72b6\u6001\uff0c\u7f3a\u9879\u5199\u672a\u6838\u5b9e\uff0c\u6536\u5165\u7528\u9014\u6bd4\u4f8b\u4e0e\u7d2f\u8ba1\u56de\u8d2d/\u9500\u6bc1\u4f9b\u5e94\u5360\u6bd4\u5206\u5f00\u3002",
-      "\u5206\u6790\u8fd9\u4e2a CA\uff1a\u53d1\u5c04\u53f0\u3001\u4e3b\u6c60\u3001\u914d\u5bf9\u8d44\u4ea7\u3001\u5408\u7ea6\u6743\u9650\u3001\u56e2\u961f\u4e0e\u98ce\u9669\u3002",
-      "\u67e5\u5e01\u80a1\u914d\u5bf9\u662f\u5426\u5b98\u65b9\uff0c\u5206\u7ea2\u662f\u5426\u771f\u5b9e\uff0c\u5e76\u4ecb\u7ecd\u5e95\u5c42\u80a1\u7968\u3002",
-      "\u7ed3\u5408\u5f53\u524d\u5e02\u503c\u8bc4\u7ea7\uff1aMeme \u770b\u672a\u6765\u4e00\u5468\u50ac\u5316\u30011\u20132 \u4e2a\u6708\u673a\u4f1a\u548c\u53d1\u5c04\u53f0\u652f\u6301\uff1b\u65e9\u671f\u5e94\u7528\u6bd4\u8f83\u540c\u7c7b\u4f30\u503c\uff0c\u8bc4\u4f30\u5c0f\u4ed3\u4e70\u9884\u671f\uff1b\u6700\u540e\u4ee5\u4e94\u884c\u6587\u672c\u7ed9\u51fa\u8bc4\u7ea7\u3001\u8d54\u7387\u548c\u4e70\u5165\u7b56\u7565\u3002",
-      "\u91cd\u70b9\u6838\u9a8c\u4ee3\u5e01\u5206\u914d\u3001\u771f\u5b9e\u6d41\u901a\u3001\u89e3\u9501\u589e\u53d1\u3001\u9500\u6bc1/\u56de\u8d2d/\u5206\u7ea2\u6bd4\u4f8b\u4e0e\u5b9e\u9645\u5151\u73b0\uff0c\u8bf4\u660e\u51c0\u7a00\u91ca\u548c\u6301\u5e01\u6536\u76ca\u5982\u4f55\u6539\u53d8\u5f53\u524d\u4e70\u5165\u8bc4\u7ea7\u3002"
+      "研究这个 CA，强制按代币经济固定格式写总量/流通百分比、逐版营收分配、利润分配、回购机制/当前回购比例、销毁机制/当前销毁比例；每项写清分母、分给谁、用途、代币及核查状态，缺项写未核实，收入用途比例与累计回购/销毁供应占比分开。",
+      "分析这个 CA：发射台、主池、配对资产、合约权限、团队与风险。",
+      "查币股配对是否官方，分红是否真实，并介绍底层股票。",
+      "结合当前市值评级：Meme 看未来一周催化、1–2 个月机会和发射台支持；早期应用比较同类估值，评估小仓买预期；最后以五行文本给出评级、赔率和买入策略。",
+      "重点核验代币分配、真实流通、解锁增发、销毁/回购/分红比例与实际兑现，说明净稀释和持币收益如何改变当前买入评级。",
+      "结合 1h/4h/日线形态、真实运营天数和距 ATH 跌幅给市值买入区间、确认及失效位；ATH 小于 10M 看 75–85%、极限 88–89%、超过 89% 一般不买；ATH 至少 10M 看 70–85%、极限 88%、超过 88% 一般不买；另算 78.6% 参考位。持续运营至少 7 天且可交易的项目应给有依据的条件价位，运营越久可接受较浅回调，不把年龄当作安全证明。"
     ]
   }
 }

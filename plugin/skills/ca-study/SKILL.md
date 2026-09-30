@@ -1,6 +1,6 @@
 ---
 name: ca-study
-description: Evidence-first crypto due diligence with a mandatory line-by-line A/B/C/D/F buy verdict, heavily weighted tokenomics and holder capture, near-term meme/launchpad catalysts, early application valuation opportunities, large-holder profits, and launch-bundle exits. Use for current investigation of a supplied CA, token, launchpad, pool, project URL, or X account rather than generic crypto education.
+description: Evidence-first crypto due diligence with A/B/C/D/F ratings, tokenomics and holder capture, and concrete market-cap entries from 1h+ charts, operating history and ATH drawdown. Use for current investigation of a supplied CA, token, launchpad, pool, project URL or X account.
 ---
 
 # ca-study
@@ -32,6 +32,12 @@ Use `当前版` when there is only one evidenced version; never invent v1/v2. At
 
 Treat project age as material evidence, not a footnote, but apply it differently by category. For applications, a newly assembled website, social presence, product claim, and token materially weaken claims of delivery history. For a pure meme—especially a new event coin—same-day creation may be normal and must not by itself force a downgrade; report the short observation window and judge catalyst strength, propagation, launch fairness, holder cost basis, and whether attention survives the initiating event. Explicitly report the dates relevant to the category when obtainable. Distinguish an old recycled X account from real operating or community history.
 
+## Mandatory market-entry assessment
+
+For every asset assessment, including strategy follow-ups, read [references/market-entry.md](references/market-entry.md) and assess **1h/4h (daily where history permits) chart structure, verified continuous operating time, and same-basis ATH drawdown**, alongside fundamentals and holder risk. Default entry levels to **USD market cap**, explicitly FDV when circulation is unverified. Give observed structure, trigger/retest levels and invalidation; never invent a pattern from drawdown alone. Independently assess current entry and a conditional lower/higher confirmation entry rather than making every result wait for product maturity.
+
+For candidates operating at least **7 days**, give a supported numeric buy zone when identity, sellability, liquidity and a valuation/chart/ATH basis are available; longer verified activity can support a shallower discount or a higher confirmed entry. Age supports continuity evidence, not proof against rug. Apply the user's 2026-09-30 ATH presets: **ATH < $10M: 75–85% drawdown candidate zone, 88–89% extreme, generally exclude beyond 89%; ATH ≥ $10M: 70–85% candidate zone, 88% extreme, generally exclude beyond 88%**. Calculate the **78.6% drawdown level (21.4% of ATH)** as a reference, not guaranteed support. These are user-selected trading heuristics; report sources, coverage and supply basis. Use chart, age, drawdown and relative value together without requiring all to confirm simultaneously. Explain exclusions and real data gaps; verified rug/failure and critical investability failures remain disqualifying. `C` can allow an explicitly speculative small technical entry; `D` may have a conditional future entry requiring reassessment. Keep the final grade about the current price and do not manufacture an upgrade merely to suggest a buy.
+
 ## Start from identity, not narrative
 
 1. Record every supplied identifier: chain, CA, pool, URL, X handle, ticker, and claimed launchpad.
@@ -48,9 +54,9 @@ Run `scripts/dex_snapshot.py` when a CA needs DEX pair discovery or primary-pool
 - For launchpads, pools, liquidity, Robinhood Stock Tokens, other stock/RWA issuers, or an underlying-company summary, read [references/pools-and-launchpads.md](references/pools-and-launchpads.md).
 - For taxes, revenue, dividends, rebates, buybacks, burns, holder rights, or privileged contract controls, read [references/cashflow-and-contracts.md](references/cashflow-and-contracts.md).
 - For website, X, team, community, impersonation, account compromise, or rug risk, read [references/identity-and-community.md](references/identity-and-community.md).
-- For every project/token investigation, read [references/rating-framework.md](references/rating-framework.md), [references/tokenomics.md](references/tokenomics.md), [references/holders-and-launch.md](references/holders-and-launch.md), and [references/valuation-and-strategy.md](references/valuation-and-strategy.md). The overall grade, tokenomics assessment and rating impact, entry strategy, valuation, large-holder profit analysis, and launch-bundle exit check are mandatory. For memes, also always read [references/pools-and-launchpads.md](references/pools-and-launchpads.md) for launchpad support and control-risk assessment.
+- For every project/token investigation, read [references/rating-framework.md](references/rating-framework.md), [references/tokenomics.md](references/tokenomics.md), [references/holders-and-launch.md](references/holders-and-launch.md), [references/valuation-and-strategy.md](references/valuation-and-strategy.md), and [references/market-entry.md](references/market-entry.md). The overall grade, tokenomics assessment and rating impact, chart/age/ATH entry strategy, valuation, large-holder profit analysis, and launch-bundle exit check are mandatory. For memes, also always read [references/pools-and-launchpads.md](references/pools-and-launchpads.md) for launchpad support and control-risk assessment.
 
-Read other references as needed for the requested modules. For a full project audit, read all seven.
+Read other references as needed for the requested modules. For a full project audit, read all eight.
 
 ## Evidence labels
 
@@ -79,6 +85,7 @@ Lead with a short verdict in the user's language: what it actually is, the overa
 - Website, X, team, and community
 - Project-age timeline: for applications, domain, first site evidence, X creation and first relevant post, token deployment, and pool/trading start; for pure memes, prioritize the initiating event, first coin post, launch, pool start, and subsequent attention/price inflections
 - Market snapshot: observation time/timezone, price, circulating market cap or explicit unknown, FDV, executable liquidity, volume quality, and dilution/unlocks
+- Entry evidence: actual operating/trading days, 1h/4h/daily chart and closed-candle confirmation, ATH/date/coverage and current drawdown, user-rule candidate zone, 78.6% reference, extreme/exclusion levels, first-entry trigger and invalidation in market-cap terms
 - Large-holder positions and cost basis: realized profit, unrealized profit, remaining position, concentration, turnover evidence, and potential sell pressure versus liquidity
 - Launch-bundle/insider cohort: initial buys, sales and proceeds, remaining balances, attribution confidence, and data coverage
 - Red flags, invalidated claims, and unknowns
